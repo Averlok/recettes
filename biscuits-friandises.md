@@ -10,11 +10,18 @@ permalink: /biscuits-friandises
 </div>
 
 
-* Table des matières 
+- Table des matières 
 {:toc min_level=3 max_level=3}
 
 ---
 ## Biscuits pain d'épice de base
+
+<div class="info-recette">
+  <span><i class="fa-solid fa-clock"></i> <b>Prep :</b> 25 min</span>
+  <span><i class="fa-solid fa-fire"></i> <b>Cuisson :</b> 8 min</span>
+  <span><i class="fa-solid fa-utensils"></i> <b>Portions :</b> 24-30 biscuits</span>
+</div>
+
 > **Ingrédients :**
 > * 750 ml (3 tasses) de farine tout usage non blanchie
 > * 15 ml (1 c. à soupe) de gingembre moulu
@@ -44,6 +51,13 @@ permalink: /biscuits-friandises
 ---
 
 ## Cranberry Coins
+
+<div class="info-recette">
+  <span><i class="fa-solid fa-clock"></i> <b>Prep :</b> 20 min</span>
+  <span><i class="fa-solid fa-fire"></i> <b>Cuisson :</b> 20 min</span>
+  <span><i class="fa-solid fa-utensils"></i> <b>Portions :</b> 30-36 biscuits</span>
+</div>
+
 > **Ingrédients :**
 > * 1 tasse (2 bâtonnets) de beurre non salé, ramolli
 > * 3/4 tasse de sucre à glacer, tamisé
@@ -61,6 +75,13 @@ permalink: /biscuits-friandises
 ---
 
 ## Biscuits rhum-raisins
+
+<div class="info-recette">
+  <span><i class="fa-solid fa-clock"></i> <b>Prep :</b> 20 min</span>
+  <span><i class="fa-solid fa-fire"></i> <b>Cuisson :</b> 15 min</span>
+  <span><i class="fa-solid fa-utensils"></i> <b>Portions :</b> 18-24 biscuits</span>
+</div>
+
 > **Ingrédients :**
 > * 30 ml (2 c. à soupe) de rhum
 > * 60 ml (1/4 tasse) de raisins de Corinthe séchés
@@ -76,6 +97,13 @@ permalink: /biscuits-friandises
 ---
 
 ## Fudge au chocolat blanc
+
+<div class="info-recette">
+  <span><i class="fa-solid fa-clock"></i> <b>Prep :</b> 10 min</span>
+  <span><i class="fa-solid fa-fire"></i> <b>Cuisson :</b> 3 min</span>
+  <span><i class="fa-solid fa-utensils"></i> <b>Portions :</b> 25 carrés</span>
+</div>
+
 > **Ingrédients :**
 > * 2 pqt (6 carrés chacun) de chocolat blanc Baker's
 > * 3/4 tasse de lait condensé sucré
@@ -91,6 +119,12 @@ permalink: /biscuits-friandises
 ---
 
 ## Croustade pommes et fraises
+
+<div class="info-recette">
+  <span><i class="fa-solid fa-clock"></i> <b>Prep :</b> 20 min</span>
+  <span><i class="fa-solid fa-fire"></i> <b>Cuisson :</b> 45 min</span>
+  <span><i class="fa-solid fa-utensils"></i> <b>Portions :</b> 6</span>
+</div>
 
 > **Ingrédients :**
 > * 4 tasses Pommes Paula Red ou Cortland
@@ -117,6 +151,12 @@ permalink: /biscuits-friandises
 
 ## Gâteau étagé meringue et Oreo
 
+<div class="info-recette">
+  <span><i class="fa-solid fa-clock"></i> <b>Prep :</b> 25 min</span>
+  <span><i class="fa-solid fa-fire"></i> <b>Cuisson :</b> 55 min</span>
+  <span><i class="fa-solid fa-utensils"></i> <b>Portions :</b> 8-10</span>
+</div>
+
 > **Ingrédients :**
 > * 5 unités blancs d’œufs
 > * 1 tasse sucre
@@ -135,4 +175,3 @@ permalink: /biscuits-friandises
 > 7. Déposer un disque de meringue, une couche de crème fouettée et une bonne poignée d’Oreo. Répéter avec les autres disques.
 > 8. Couvrir le dessus et les côtés de crème, puis décorer avec les Oreo réservés.
 > 9. Congeler 1 heure avant de servir.
-
