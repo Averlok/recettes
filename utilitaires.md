@@ -12,6 +12,9 @@ nav_order: 15
 Un petit coin pratique pour ajuster tes mesures sans te casser la tête la farine jusqu'aux coudes!
 </div>
 
+* Table des matières 
+{:toc min_level=3 max_level=3}
+
 ---
 
 ## <i class="fa-solid fa-arrows-rotate"></i> Convertisseur interactif
