@@ -138,6 +138,20 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ---
 
+## <i class="fa-solid fa-utensils"></i> Équivalences pour les pâtes courtes (Sèches)
+
+| Type de pâte | 1 tasse (sèche) | Pour 200 g (2 portions) |
+| :--- | :--- | :--- |
+| **Macaronis / Coudes** | ~100 g | ~2 tasses |
+| **Penne / Rigatoni** | ~80 g | ~2 tasses et demie |
+| **Fusilli / Rotini (Torsades)** | ~75 g | ~2 tasses et 2/3 |
+| **Coquillages (Medium)** | ~85 g | ~2 tasses et 1/3 |
+| **Orzo / Langues d'oiseau** | ~180 g | ~1 tasse et 1/8 |
+
+> **Astuce cuisine :** En règle générale, **100 g de pâtes sèches** donnent environ **225 g à 250 g de pâtes cuites** (elles doublent presque de poids en absorbant l'eau).
+
+---
+
 ## <i class="fa-solid fa-temperature-high"></i> Températures du four
 
 * **275 °F (140 °C)** : Réchauffer / Cuisson très lente
