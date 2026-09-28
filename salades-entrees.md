@@ -128,23 +128,51 @@ permalink: /salades-entrees
 
 ---
 
-## Tartare de thon asiatique, pomme verte & noix de cajou
-> **Ingrédients (2 pers.) :**
-> * 300 g de thon frais qualité sushi
-> * 1 petite pomme verte (Granny Smith)
-> * 1 petite échalote française, très finement ciselée
-> * 2 c. à soupe de noix de cajou nature, non salées
-> * 1 c. à soupe de graines de sésame
-> * 1 ½ c. à soupe de jus de lime frais
-> * 1 c. à soupe de sauce soya légère (ou tamari)
-> * 1 c. à soupe d’huile neutre
-> * ½ c. à thé d’huile de sésame grillé
-> * ½ c. à thé de gingembre frais râpé
-> * Poivre et coriandre fraîche ou ciboulette
-> 
+## Orzo crémeux au saumon fumé et à l'aneth
+
+> **Ingrédients :**
+> * 200 g orzo
+> * 150 g saumon fumé, coupé en lanières
+> * 1 c. à soupe huile d'olive
+> * 1 unité échalote française, hachée finement
+> * 1 gousse ail, hachée
+> * 1/2 tasse bouillon de légumes (ou de poisson)
+> * 1/3 tasse crème 15% (ou crème fraîche)
+> * 2 c. à soupe jus de citron
+> * 1/4 tasse aneth frais, haché
+> * 2 c. à soupe câpres, égouttées
+> * 1 pincée sel et poivre noir du moulin
+>
 > **Préparation :**
-> 1. Griller les noix de cajou à sec 2-3 minutes puis concasser.
-> 2. Couper le thon en dés, la pomme en micro-brunoise et ciseler l'échalote.
-> 3. Dans un bol, mélanger le jus de lime, la sauce soya, les huiles et le gingembre.
-> 4. Ajouter le thon, la pomme, l'échalote et enrober délicatement.
-> 5. Incorporer les noix de cajou, le sésame et la coriandre. Servir immédiatement.
+> 1. Faire cuire l'orzo dans une grande casserole d'eau bouillante salée selon les indications sur l'emballage, puis égoutter en conservant un peu d'eau de cuisson.
+> 2. Dans une grande poêle, faire chauffer l'huile d'olive à feu moyen et faire revenir l'échalote et l'ail pendant 2 à 3 minutes sans les faire brunir.
+> 3. Verser le bouillon et la crème, puis laisser mijoter doucement pendant 2 minutes pour épaissir la sauce.
+> 4. Ajouter l'orzo cuit, le jus de citron, les câpres et l'aneth, puis bien mélanger (ajouter un peu d'eau de cuisson réservée si la sauce est trop épaisse).
+> 5. Retirer du feu, incorporer délicatement les lanières de saumon fumé pour éviter de trop les cuire, poivrer, puis servir immédiatement.
+
+---
+
+## Salade d'orzo fraîche au saumon fumé, concombre et feta
+
+> **Ingrédients :**
+> * 200 g orzo
+> * 150 g saumon fumé, coupé en bouchées
+> * 1/2 unité concombre anglais, coupé en petits dés
+> * 1/4 tasse oignon rouge, haché très fin
+> * 100 g fromage feta, émietté
+> * 1/4 tasse câpres
+> * 3 c. à soupe huile d'olive
+> * 2 c. à soupe jus de citron frais
+> * 1 c. à thé zeste de citron
+> * 2 c. à soupe persil frais (ou aneth), haché
+> * 1 pincée sel et poivre noir
+>
+> **Préparation :**
+> 1. Faire cuire l'orzo dans l'eau bouillante salée, l'égoutter puis le rincer à l'eau froide pour stopper la cuisson et le refroidir complètement.
+> 2. Dans un grand saladier, fouetter l'huile d'olive, le jus de citron, le zeste de citron, le sel et le poivre pour préparer la vinaigrette.
+> 3. Ajouter l'orzo refroidi, le concombre, l'oignon rouge, les câpres et les herbes fraîches dans le saladier, puis bien touiller.
+> 4. Incorporer délicatement le fromage feta et les morceaux de saumon fumé.
+> 5. Laisser reposer au réfrigérateur au moins 15 minutes avant de servir bien frais.
+
+
+

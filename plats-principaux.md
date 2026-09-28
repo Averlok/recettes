@@ -234,3 +234,26 @@ permalink: /plats-principaux
 > **Préparation :**
 > Faire revenir l’oignon, l’ail, les épinards. Ajouter la purée de courge et utiliser l’eau de cuisson des pâtes pour la rendre plus « smooth ». 
 > Ajouter les tomates et la crème. Laisser la crème épaissir, ajouter le fromage et épicer en suivant ce que votre cœur vous dit 😌
+
+---
+
+## Tartare de thon asiatique, pomme verte & noix de cajou
+> **Ingrédients (2 pers.) :**
+> * 300 g de thon frais qualité sushi
+> * 1 petite pomme verte (Granny Smith)
+> * 1 petite échalote française, très finement ciselée
+> * 2 c. à soupe de noix de cajou nature, non salées
+> * 1 c. à soupe de graines de sésame
+> * 1 ½ c. à soupe de jus de lime frais
+> * 1 c. à soupe de sauce soya légère (ou tamari)
+> * 1 c. à soupe d’huile neutre
+> * ½ c. à thé d’huile de sésame grillé
+> * ½ c. à thé de gingembre frais râpé
+> * Poivre et coriandre fraîche ou ciboulette
+> 
+> **Préparation :**
+> 1. Griller les noix de cajou à sec 2-3 minutes puis concasser.
+> 2. Couper le thon en dés, la pomme en micro-brunoise et ciseler l'échalote.
+> 3. Dans un bol, mélanger le jus de lime, la sauce soya, les huiles et le gingembre.
+> 4. Ajouter le thon, la pomme, l'échalote et enrober délicatement.
+> 5. Incorporer les noix de cajou, le sésame et la coriandre. Servir immédiatement.
