@@ -9,12 +9,19 @@ permalink: /salades-entrees
 **<i class="fa-solid fa-carrot"></i>Salades et Entrées**
 </div>
 
-
-* Table des matières 
+- Table des matières 
 {:toc min_level=3 max_level=3}
 
 ---
+
 ## Salade de saumon fumé et haricots
+
+<div class="info-recette">
+  <span><i class="fa-solid fa-clock"></i> <b>Prep :</b> 10 min</span>
+  <span><i class="fa-solid fa-fire"></i> <b>Cuisson :</b> 0 min</span>
+  <span><i class="fa-solid fa-utensils"></i> <b>Portions :</b> 2</span>
+</div>
+
 > **Ingrédients :**
 > * 200 g de saumon fumé (coupé en petits morceaux)
 > * 1 canne (540 ml) de haricots blancs ou rouges (rincés et égouttés)
@@ -35,6 +42,13 @@ permalink: /salades-entrees
 ---
 
 ## Salade Big Mac
+
+<div class="info-recette">
+  <span><i class="fa-solid fa-clock"></i> <b>Prep :</b> 15 min</span>
+  <span><i class="fa-solid fa-fire"></i> <b>Cuisson :</b> 10 min</span>
+  <span><i class="fa-solid fa-utensils"></i> <b>Portions :</b> 4</span>
+</div>
+
 > **Ingrédients - Salade :**
 > * 450 g (1 lb) de bœuf haché maigre
 > * 1/2 c. à thé de poudre d'oignon
@@ -64,6 +78,13 @@ permalink: /salades-entrees
 ---
 
 ## Salade de quinoa sucrée-salée et croquante
+
+<div class="info-recette">
+  <span><i class="fa-solid fa-clock"></i> <b>Prep :</b> 15 min</span>
+  <span><i class="fa-solid fa-fire"></i> <b>Cuisson :</b> 15 min</span>
+  <span><i class="fa-solid fa-utensils"></i> <b>Portions :</b> 2</span>
+</div>
+
 > **Ingrédients :**
 > * 1 tasse de quinoa cuit et refroidi
 > * 1 pomme en dés
@@ -82,6 +103,13 @@ permalink: /salades-entrees
 ---
 
 ## Salade de quinoa méditerranéenne au feta
+
+<div class="info-recette">
+  <span><i class="fa-solid fa-clock"></i> <b>Prep :</b> 15 min</span>
+  <span><i class="fa-solid fa-fire"></i> <b>Cuisson :</b> 15 min</span>
+  <span><i class="fa-solid fa-utensils"></i> <b>Portions :</b> 2-3</span>
+</div>
+
 > **Ingrédients :**
 > * Quinoa cuit et refroidi
 > * Tomates cerises coupées en deux
@@ -99,6 +127,13 @@ permalink: /salades-entrees
 ---
 
 ## Salade de quinoa mexicaine
+
+<div class="info-recette">
+  <span><i class="fa-solid fa-clock"></i> <b>Prep :</b> 15 min</span>
+  <span><i class="fa-solid fa-fire"></i> <b>Cuisson :</b> 15 min</span>
+  <span><i class="fa-solid fa-utensils"></i> <b>Portions :</b> 2-3</span>
+</div>
+
 > **Ingrédients :**
 > * Quinoa cuit et refroidi
 > * Haricots noirs
@@ -116,6 +151,13 @@ permalink: /salades-entrees
 ---
 
 ## Salade de Couscous Israëlien au Saumon à l'Érable
+
+<div class="info-recette">
+  <span><i class="fa-solid fa-clock"></i> <b>Prep :</b> 20 min</span>
+  <span><i class="fa-solid fa-fire"></i> <b>Cuisson :</b> 18 min</span>
+  <span><i class="fa-solid fa-utensils"></i> <b>Portions :</b> 4</span>
+</div>
+
 > **Ingrédients :**
 > * **Couscous :** 30 ml d'huile d'olive, 1 tasse de couscous israélien (perlé), 2 tasses de bouillon de poulet réduit en sodium, jus de 2 citrons.
 > * **Poisson :** 450 g de filet de saumon sans peau, 1 c. à soupe de sirop d'érable, 7,5 ml d'huile d'olive, sel et poivre.
@@ -129,6 +171,12 @@ permalink: /salades-entrees
 ---
 
 ## Orzo crémeux au saumon fumé et à l'aneth
+
+<div class="info-recette">
+  <span><i class="fa-solid fa-clock"></i> <b>Prep :</b> 10 min</span>
+  <span><i class="fa-solid fa-fire"></i> <b>Cuisson :</b> 12 min</span>
+  <span><i class="fa-solid fa-utensils"></i> <b>Portions :</b> 2</span>
+</div>
 
 > **Ingrédients :**
 > * 200 g orzo
@@ -154,6 +202,12 @@ permalink: /salades-entrees
 
 ## Salade d'orzo fraîche au saumon fumé, concombre et feta
 
+<div class="info-recette">
+  <span><i class="fa-solid fa-clock"></i> <b>Prep :</b> 15 min</span>
+  <span><i class="fa-solid fa-fire"></i> <b>Cuisson :</b> 10 min</span>
+  <span><i class="fa-solid fa-utensils"></i> <b>Portions :</b> 2</span>
+</div>
+
 > **Ingrédients :**
 > * 200 g orzo
 > * 150 g saumon fumé, coupé en bouchées
@@ -173,6 +227,3 @@ permalink: /salades-entrees
 > 3. Ajouter l'orzo refroidi, le concombre, l'oignon rouge, les câpres et les herbes fraîches dans le saladier, puis bien touiller.
 > 4. Incorporer délicatement le fromage feta et les morceaux de saumon fumé.
 > 5. Laisser reposer au réfrigérateur au moins 15 minutes avant de servir bien frais.
-
-
-
