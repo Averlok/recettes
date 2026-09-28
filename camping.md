@@ -10,11 +10,17 @@ permalink: /camping
 </div>
 
 
-* Table des matières 
+- Table des matières 
 {:toc min_level=3 max_level=3}
 
 ---
 ## Festin d'Action de grâce de randonnée
+
+<div class="info-recette">
+  <span><i class="fa-solid fa-clock"></i> <b>Prep :</b> 5 min</span>
+  <span><i class="fa-solid fa-fire"></i> <b>Cuisson :</b> 10 min</span>
+  <span><i class="fa-solid fa-utensils"></i> <b>Portions :</b> 2</span>
+</div>
 
 > **Ingrédients :**
 > * ½ tasse pommes de terre instantanées
