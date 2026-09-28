@@ -48,7 +48,7 @@ permalink: /camping
 
 > **Ingrédients :**
 > * 1 tasse couscous moyen
-> * 1/4 tasse légumes déshydratés (carottes, poivrons, courgettes)
+> * 1/4 tasse légumes déshydratés (carottes, poivrons, ...)
 > * 2 c. à soupe raisins secs
 > * 2 c. à soupe canneberges séchées
 > * 2 c. à soupe amandes effilées ou graines de tournesol
