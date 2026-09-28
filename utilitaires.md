@@ -140,18 +140,19 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ## <i class="fa-solid fa-utensils"></i> Équivalences poids ➔ tasses par type de pâte (Sèches)
 
-| Type de pâte | 150 g | 200 g | 250 g | 300 g | 350 g |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **Orzo / Risoni** *(Très dense)* | 3/4 tasse | 1 tasse + 1/8 | 1 tasse + 1/3 | 1 tasse + 2/3 | 2 tasses |
-| **Ditalini / Petits tubes** | 1 tasse + 1/8 | 1 tasse + 1/2 | 1 tasse + 7/8 | 2 tasses + 1/3 | 2 tasses + 2/3 |
-| **Macaronis / Coudes** | 1 tasse + 1/2 | 2 tasses | 2 tasses + 1/2 | 3 tasses | 3 tasses + 1/2 |
-| **Coquillages (Medium)** | 1 tasse + 3/4 | 2 tasses + 1/3 | 3 tasses | 3 tasses + 1/2 | 4 tasses + 1/8 |
-| **Penne / Rigatoni / Cavatappi** | 1 tasse + 7/8 | 2 tasses + 1/2 | 3 tasses + 1/8 | 3 tasses + 3/4 | 4 tasses + 3/8 |
-| **Fusilli / Rotini / Farfalle** *(Volumineux)* | 2 tasses | 2 tasses + 2/3 | 3 tasses + 1/3 | 4 tasses | 4 tasses + 2/3 |
+| Type de pâte | 200 g | 250 g | 300 g | 350 g |
+| :--- | :--- | :--- | :--- | :--- |
+| **Orzo / Risoni** *(Très dense)* | 1 tasse + 1/8 | 1 tasse + 1/3 | 1 tasse + 2/3 | 2 tasses |
+| **Ditalini / Petits tubes** | 1 tasse + 1/2 | 1 tasse + 7/8 | 2 tasses + 1/3 | 2 tasses + 2/3 |
+| **Macaronis / Coudes** | 2 tasses | 2 tasses + 1/2 | 3 tasses | 3 tasses + 1/2 |
+| **Coquillages (Medium)** | 2 tasses + 1/3 | 3 tasses | 3 tasses + 1/2 | 4 tasses + 1/8 |
+| **Penne / Rigatoni / Cavatappi** | 2 tasses + 1/2 | 3 tasses + 1/8 | 3 tasses + 3/4 | 4 tasses + 3/8 |
+| **Fusilli / Rotini / Farfalle** *(Volumineux)* | 2 tasses + 2/3 | 3 tasses + 1/3 | 4 tasses | 4 tasses + 2/3 |
 
 > **Astuce de chef :**
 > * **Règle de cuisson** : 100 g de pâtes sèches absorbent l'eau et donnent environ **225 g à 250 g de pâtes cuites**.
 > * **Pâtes longues (Spaghetti, Linguine)** : 100 g correspondent à un faisceau d'environ **2.5 cm (1 pouce)** de diamètre (la taille d'une pièce de 1$ CAD).
+
 
 ---
 
