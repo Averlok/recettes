@@ -10,12 +10,19 @@ permalink: /plats-principaux
 </div>
 
 
-* Table des matières 
+- Table des matières 
 {:toc min_level=3 max_level=3}
 
 ---
 
 ## Pain de viande classique
+
+<div class="info-recette">
+  <span><i class="fa-solid fa-clock"></i> <b>Prep :</b> 15 min</span>
+  <span><i class="fa-solid fa-fire"></i> <b>Cuisson :</b> 1 h 15 min</span>
+  <span><i class="fa-solid fa-utensils"></i> <b>Portions :</b> 6</span>
+</div>
+
 > **Ingrédients :**
 > * 750 g (1 1/2 lb) de bœuf haché mi-maigre
 > * 1 oignon moyen finement haché
@@ -36,6 +43,13 @@ permalink: /plats-principaux
 ---
 
 ## Effiloché de porc barbecue à la mijoteuse
+
+<div class="info-recette">
+  <span><i class="fa-solid fa-clock"></i> <b>Prep :</b> 20 min</span>
+  <span><i class="fa-solid fa-fire"></i> <b>Cuisson :</b> 8 h</span>
+  <span><i class="fa-solid fa-utensils"></i> <b>Portions :</b> 8-10</span>
+</div>
+
 > **Ingrédients :**
 > * 250 ml de ketchup
 > * 125 ml de vinaigre de cidre
@@ -57,6 +71,13 @@ permalink: /plats-principaux
 ---
 
 ## Boulettes suédoises
+
+<div class="info-recette">
+  <span><i class="fa-solid fa-clock"></i> <b>Prep :</b> 25 min</span>
+  <span><i class="fa-solid fa-fire"></i> <b>Cuisson :</b> 20 min</span>
+  <span><i class="fa-solid fa-utensils"></i> <b>Portions :</b> 4</span>
+</div>
+
 > **Ingrédients (Boulettes) :**
 > * 500 g de bœuf haché
 > * 250 g de porc haché
@@ -89,6 +110,13 @@ permalink: /plats-principaux
 ---
 
 ## Moussaka facile aux aubergines
+
+<div class="info-recette">
+  <span><i class="fa-solid fa-clock"></i> <b>Prep :</b> 30 min</span>
+  <span><i class="fa-solid fa-fire"></i> <b>Cuisson :</b> 1 h 05 min</span>
+  <span><i class="fa-solid fa-utensils"></i> <b>Portions :</b> 6</span>
+</div>
+
 > **Ingrédients (Aubergines) :**
 > * 2 aubergines moyennes en tranches
 > * 1 à 2 c. à soupe d’huile d’olive
@@ -123,6 +151,13 @@ permalink: /plats-principaux
 ---
 
 ## Guédilles aux crevettes nordiques
+
+<div class="info-recette">
+  <span><i class="fa-solid fa-clock"></i> <b>Prep :</b> 15 min</span>
+  <span><i class="fa-solid fa-fire"></i> <b>Cuisson :</b> 5 min</span>
+  <span><i class="fa-solid fa-utensils"></i> <b>Portions :</b> 4</span>
+</div>
+
 > **Ingrédients :**
 > * 450 g de crevettes nordiques cuites et bien égouttées
 > * 125 ml de mayonnaise
@@ -145,6 +180,13 @@ permalink: /plats-principaux
 ---
 
 ## Burgers au PVT de pois jaunes (6 galettes)
+
+<div class="info-recette">
+  <span><i class="fa-solid fa-clock"></i> <b>Prep :</b> 20 min</span>
+  <span><i class="fa-solid fa-fire"></i> <b>Cuisson :</b> 12 min</span>
+  <span><i class="fa-solid fa-utensils"></i> <b>Portions :</b> 6</span>
+</div>
+
 > **Ingrédients :**
 > * 1 tasse de PVT de pois jaunes Grounded
 > * ¾ tasse de bouillon de légumes chaud
@@ -167,6 +209,13 @@ permalink: /plats-principaux
 ---
 
 ## Banh Mi Sriracha Burgers
+
+<div class="info-recette">
+  <span><i class="fa-solid fa-clock"></i> <b>Prep :</b> 20 min</span>
+  <span><i class="fa-solid fa-fire"></i> <b>Cuisson :</b> 12 min</span>
+  <span><i class="fa-solid fa-utensils"></i> <b>Portions :</b> 4</span>
+</div>
+
 > **Ingrédients (Burgers) :**
 > * 1 lb de porc haché
 > * 2 c. à soupe de sauce soya réduite en sodium
@@ -197,6 +246,13 @@ permalink: /plats-principaux
 ---
 
 ## Poulet Shish Taouk
+
+<div class="info-recette">
+  <span><i class="fa-solid fa-clock"></i> <b>Prep :</b> 15 min</span>
+  <span><i class="fa-solid fa-fire"></i> <b>Cuisson :</b> 20 min</span>
+  <span><i class="fa-solid fa-utensils"></i> <b>Portions :</b> 4-5</span>
+</div>
+
 > **Ingrédients :**
 > * 2 c. à table d'huile d'olive
 > * 1 c. à table de pâte de tomates
@@ -218,6 +274,13 @@ permalink: /plats-principaux
 ---
 
 ## Pâtes à la courgette
+
+<div class="info-recette">
+  <span><i class="fa-solid fa-clock"></i> <b>Prep :</b> 15 min</span>
+  <span><i class="fa-solid fa-fire"></i> <b>Cuisson :</b> 15 min</span>
+  <span><i class="fa-solid fa-utensils"></i> <b>Portions :</b> 2</span>
+</div>
+
 > **Ingrédients :**
 > * 1t de purée de courge musquée
 > * 1 paquet d’épinards 
@@ -238,6 +301,13 @@ permalink: /plats-principaux
 ---
 
 ## Tartare de thon asiatique, pomme verte & noix de cajou
+
+<div class="info-recette">
+  <span><i class="fa-solid fa-clock"></i> <b>Prep :</b> 20 min</span>
+  <span><i class="fa-solid fa-fire"></i> <b>Cuisson :</b> 3 min</span>
+  <span><i class="fa-solid fa-utensils"></i> <b>Portions :</b> 2</span>
+</div>
+
 > **Ingrédients (2 pers.) :**
 > * 300 g de thon frais qualité sushi
 > * 1 petite pomme verte (Granny Smith)
