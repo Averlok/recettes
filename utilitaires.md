@@ -15,40 +15,39 @@ Un petit coin pratique pour ajuster tes mesures sans te casser la tête la farin
 ---
 
 ## <i class="fa-solid fa-arrows-rotate"></i> Convertisseur interactif
-
 {::nomarkdown}
 <div style="background: rgba(66, 41, 86, 0.05); padding: 18px; border-radius: 10px; border: 1px solid #422956; margin-bottom: 25px;">
 
-  <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 5px;">
+  <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px;">
     <span style="font-weight: bold; color: #422956;" id="volLabel">Volume (Tasses <i class="fa-solid fa-right-long"></i> ml)</span>
-    <button type="button" id="btnVol" style="background: #422956; color: white; border: none; border-radius: 5px; padding: 6px 10px; font-size: 12px; cursor: pointer;">
-      <i class="fa-solid fa-arrows-left-right"></i> Inverser
+    <button type="button" id="btnVol" title="Inverser le sens" style="background: transparent; color: #422956; border: 1px solid #422956; border-radius: 20px; padding: 4px 10px; font-size: 13px; cursor: pointer; display: flex; align-items: center; gap: 5px; transition: all 0.2s ease;">
+      <i class="fa-solid fa-arrows-rotate"></i> <span style="font-size: 11px; font-weight: 600;">Inverser</span>
     </button>
   </div>
-  <div style="display: flex; gap: 10px; align-items: center; margin-bottom: 15px;">
-    <input type="number" id="volInput" placeholder="0" step="0.25" style="padding: 8px; border-radius: 5px; border: 1px solid #ccc; width: 50%; font-size: 16px;">
+  <div style="display: flex; gap: 10px; align-items: center; margin-bottom: 18px;">
+    <input type="number" id="volInput" placeholder="0" step="0.25" style="padding: 8px; border-radius: 6px; border: 1px solid #ccc; width: 50%; font-size: 16px;">
     <span style="font-weight: bold; color: #422956;">= <span id="volResult">0</span> <span id="volUnit">ml</span></span>
   </div>
 
-  <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 5px;">
+  <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px;">
     <span style="font-weight: bold; color: #422956;" id="casLabel">Cuillères à soupe (c. à soupe <i class="fa-solid fa-right-long"></i> ml)</span>
-    <button type="button" id="btnCas" style="background: #422956; color: white; border: none; border-radius: 5px; padding: 6px 10px; font-size: 12px; cursor: pointer;">
-      <i class="fa-solid fa-arrows-left-right"></i> Inverser
+    <button type="button" id="btnCas" title="Inverser le sens" style="background: transparent; color: #422956; border: 1px solid #422956; border-radius: 20px; padding: 4px 10px; font-size: 13px; cursor: pointer; display: flex; align-items: center; gap: 5px; transition: all 0.2s ease;">
+      <i class="fa-solid fa-arrows-rotate"></i> <span style="font-size: 11px; font-weight: 600;">Inverser</span>
     </button>
   </div>
-  <div style="display: flex; gap: 10px; align-items: center; margin-bottom: 15px;">
-    <input type="number" id="casInput" placeholder="0" step="1" style="padding: 8px; border-radius: 5px; border: 1px solid #ccc; width: 50%; font-size: 16px;">
+  <div style="display: flex; gap: 10px; align-items: center; margin-bottom: 18px;">
+    <input type="number" id="casInput" placeholder="0" step="1" style="padding: 8px; border-radius: 6px; border: 1px solid #ccc; width: 50%; font-size: 16px;">
     <span style="font-weight: bold; color: #422956;">= <span id="casResult">0</span> <span id="casUnit">ml</span></span>
   </div>
 
-  <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 5px;">
+  <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px;">
     <span style="font-weight: bold; color: #422956;" id="tempLabel">Température (°F <i class="fa-solid fa-right-long"></i> °C)</span>
-    <button type="button" id="btnTemp" style="background: #422956; color: white; border: none; border-radius: 5px; padding: 6px 10px; font-size: 12px; cursor: pointer;">
-      <i class="fa-solid fa-arrows-left-right"></i> Inverser
+    <button type="button" id="btnTemp" title="Inverser le sens" style="background: transparent; color: #422956; border: 1px solid #422956; border-radius: 20px; padding: 4px 10px; font-size: 13px; cursor: pointer; display: flex; align-items: center; gap: 5px; transition: all 0.2s ease;">
+      <i class="fa-solid fa-arrows-rotate"></i> <span style="font-size: 11px; font-weight: 600;">Inverser</span>
     </button>
   </div>
   <div style="display: flex; gap: 10px; align-items: center;">
-    <input type="number" id="tempInput" placeholder="0" step="5" style="padding: 8px; border-radius: 5px; border: 1px solid #ccc; width: 50%; font-size: 16px;">
+    <input type="number" id="tempInput" placeholder="0" step="5" style="padding: 8px; border-radius: 6px; border: 1px solid #ccc; width: 50%; font-size: 16px;">
     <span style="font-weight: bold; color: #422956;">= <span id="tempResult">0</span> <span id="tempUnit">°C</span></span>
   </div>
 
@@ -106,6 +105,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 </script>
 {:/nomarkdown}
+
 
 ---
 
