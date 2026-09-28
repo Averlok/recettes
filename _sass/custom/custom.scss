@@ -83,3 +83,9 @@ i.fa-solid, i.fa-regular, .fa-solid, .fa-regular {
   margin-top: -10px;
   margin-bottom: 20px;
 }
+
+
+/* Masquer les icônes de lien d'ancrage sur tous les titres */
+.anchor-heading {
+  display: none !important;
+}
