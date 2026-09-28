@@ -8,7 +8,6 @@ nav_order: 15
 **<i class="fa-solid fa-calculator"></i> Outils & Conversions**
 </div>
 
-
 <div class="sous-titre">
 Un petit coin pratique pour ajuster tes mesures sans te casser la tête la farine jusqu'aux coudes!
 </div>
@@ -18,41 +17,90 @@ Un petit coin pratique pour ajuster tes mesures sans te casser la tête la farin
 ## <i class="fa-solid fa-arrows-rotate"></i> Convertisseur interactif
 
 <div style="background: rgba(66, 41, 86, 0.05); padding: 18px; border-radius: 10px; border: 1px solid #422956; margin-bottom: 25px;">
-  
-  <div style="font-weight: bold; color: #422956; margin-bottom: 5px;">Volume (Tasses <i class="fa-solid fa-right-long" style="font-size: 0.8em; margin: 0 5px;"></i> ml)</div>
+
+  <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 5px;">
+    <span style="font-weight: bold; color: #422956;" id="volLabel">Volume (Tasses <i class="fa-solid fa-right-long"></i> ml)</span>
+    <button onclick="toggleVol()" style="background: #422956; color: white; border: none; border-radius: 5px; padding: 4px 8px; font-size: 12px; cursor: pointer;">
+      <i class="fa-solid fa-arrows-left-right"></i> Inverser
+    </button>
+  </div>
   <div style="display: flex; gap: 10px; align-items: center; margin-bottom: 15px;">
-    <input type="number" id="tassesInput" oninput="calculerTasses()" placeholder="0" step="0.25" style="padding: 8px; border-radius: 5px; border: 1px solid #ccc; width: 50%; font-size: 16px;">
-    <span style="font-weight: bold; color: #422956;">= <span id="mlResult">0</span> ml</span>
+    <input type="number" id="volInput" oninput="calculerVol()" placeholder="0" step="0.25" style="padding: 8px; border-radius: 5px; border: 1px solid #ccc; width: 50%; font-size: 16px;">
+    <span style="font-weight: bold; color: #422956;">= <span id="volResult">0</span> <span id="volUnit">ml</span></span>
   </div>
 
-  <div style="font-weight: bold; color: #422956; margin-bottom: 5px;">Cuillères à soupe (c. à soupe <i class="fa-solid fa-right-long" style="font-size: 0.8em; margin: 0 5px;"></i> ml)</div>
+  <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 5px;">
+    <span style="font-weight: bold; color: #422956;" id="casLabel">Cuillères à soupe (c. à soupe <i class="fa-solid fa-right-long"></i> ml)</span>
+    <button onclick="toggleCas()" style="background: #422956; color: white; border: none; border-radius: 5px; padding: 4px 8px; font-size: 12px; cursor: pointer;">
+      <i class="fa-solid fa-arrows-left-right"></i> Inverser
+    </button>
+  </div>
   <div style="display: flex; gap: 10px; align-items: center; margin-bottom: 15px;">
     <input type="number" id="casInput" oninput="calculerCas()" placeholder="0" step="1" style="padding: 8px; border-radius: 5px; border: 1px solid #ccc; width: 50%; font-size: 16px;">
-    <span style="font-weight: bold; color: #422956;">= <span id="casMlResult">0</span> ml</span>
+    <span style="font-weight: bold; color: #422956;">= <span id="casResult">0</span> <span id="casUnit">ml</span></span>
   </div>
 
-  <div style="font-weight: bold; color: #422956; margin-bottom: 5px;">Température (°F <i class="fa-solid fa-right-long" style="font-size: 0.8em; margin: 0 5px;"></i> °C)</div>
+  <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 5px;">
+    <span style="font-weight: bold; color: #422956;" id="tempLabel">Température (°F <i class="fa-solid fa-right-long"></i> °C)</span>
+    <button onclick="toggleTemp()" style="background: #422956; color: white; border: none; border-radius: 5px; padding: 4px 8px; font-size: 12px; cursor: pointer;">
+      <i class="fa-solid fa-arrows-left-right"></i> Inverser
+    </button>
+  </div>
   <div style="display: flex; gap: 10px; align-items: center;">
-    <input type="number" id="fahrInput" oninput="calculerTemp()" placeholder="0" step="5" style="padding: 8px; border-radius: 5px; border: 1px solid #ccc; width: 50%; font-size: 16px;">
-    <span style="font-weight: bold; color: #422956;">= <span id="celsiusResult">0</span> °C</span>
+    <input type="number" id="tempInput" oninput="calculerTemp()" placeholder="0" step="5" style="padding: 8px; border-radius: 5px; border: 1px solid #ccc; width: 50%; font-size: 16px;">
+    <span style="font-weight: bold; color: #422956;">= <span id="tempResult">0</span> <span id="tempUnit">°C</span></span>
   </div>
 
 </div>
 
 <script>
-  function calculerTasses() {
-    let val = parseFloat(document.getElementById('tassesInput').value);
-    document.getElementById('mlResult').innerText = isNaN(val) ? 0 : Math.round(val * 250);
+  // Modes par défaut (false = direct, true = inversé)
+  let volInv = false;
+  let casInv = false;
+  let tempInv = false;
+
+  // TOGGLES
+  function toggleVol() {
+    volInv = !volInv;
+    document.getElementById('volLabel').innerHTML = volInv ? 'Volume (ml <i class="fa-solid fa-right-long"></i> Tasses)' : 'Volume (Tasses <i class="fa-solid fa-right-long"></i> ml)';
+    document.getElementById('volUnit').innerText = volInv ? 'tasses' : 'ml';
+    calculerVol();
+  }
+
+  function toggleCas() {
+    casInv = !casInv;
+    document.getElementById('casLabel').innerHTML = casInv ? 'Cuillères à soupe (ml <i class="fa-solid fa-right-long"></i> c. à soupe)' : 'Cuillères à soupe (c. à soupe <i class="fa-solid fa-right-long"></i> ml)';
+    document.getElementById('casUnit').innerText = casInv ? 'c. à soupe' : 'ml';
+    calculerCas();
+  }
+
+  function toggleTemp() {
+    tempInv = !tempInv;
+    document.getElementById('tempLabel').innerHTML = tempInv ? 'Température (°C <i class="fa-solid fa-right-long"></i> °F)' : 'Température (°F <i class="fa-solid fa-right-long"></i> °C)';
+    document.getElementById('tempUnit').innerText = tempInv ? '°F' : '°C';
+    calculerTemp();
+  }
+
+  // CALCULS
+  function calculerVol() {
+    let val = parseFloat(document.getElementById('volInput').value);
+    if (isNaN(val)) { document.getElementById('volResult').innerText = '0'; return; }
+    let res = volInv ? (val / 250) : (val * 250);
+    document.getElementById('volResult').innerText = volInv ? res.toFixed(2) : Math.round(res);
   }
 
   function calculerCas() {
     let val = parseFloat(document.getElementById('casInput').value);
-    document.getElementById('casMlResult').innerText = isNaN(val) ? 0 : Math.round(val * 15);
+    if (isNaN(val)) { document.getElementById('casResult').innerText = '0'; return; }
+    let res = casInv ? (val / 15) : (val * 15);
+    document.getElementById('casResult').innerText = casInv ? res.toFixed(1) : Math.round(res);
   }
 
   function calculerTemp() {
-    let val = parseFloat(document.getElementById('fahrInput').value);
-    document.getElementById('celsiusResult').innerText = isNaN(val) ? 0 : Math.round((val - 32) * 5 / 9);
+    let val = parseFloat(document.getElementById('tempInput').value);
+    if (isNaN(val)) { document.getElementById('tempResult').innerText = '0'; return; }
+    let res = tempInv ? ((val * 9 / 5) + 32) : ((val - 32) * 5 / 9);
+    document.getElementById('tempResult').innerText = Math.round(res);
   }
 </script>
 
