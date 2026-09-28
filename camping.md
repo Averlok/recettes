@@ -41,9 +41,9 @@ permalink: /camping
 ## Couscous Ras-el-Hanout, Légumes et Fruits Secs
 
 <div class="info-recette">
-  <span><i class="fa-solid fa-clock"></i> **Prep :** 5 min</span>
-  <span><i class="fa-solid fa-fire"></i> **Cuisson :** 5 min</span>
-  <span><i class="fa-solid fa-utensils"></i> **Portions :** 2</span>
+  <span><i class="fa-solid fa-clock"></i> <b>Prep :</b>  5 min</span>
+  <span><i class="fa-solid fa-fire"></i> <b>Cuisson :</b>  5 min</span>
+  <span><i class="fa-solid fa-utensils"></i> <b>Portions :</b>  2</span>
 </div>
 
 > **Ingrédients :**
