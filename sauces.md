@@ -10,12 +10,19 @@ permalink: /sauces
 </div>
 
 
-* Table des matières 
+- Table des matières 
 {:toc min_level=3 max_level=3}
 
 ---
 
 ## Sauce moutarde
+
+<div class="info-recette">
+  <span><i class="fa-solid fa-clock"></i> <b>Prep :</b> 5 min</span>
+  <span><i class="fa-solid fa-fire"></i> <b>Cuisson :</b> 0 min</span>
+  <span><i class="fa-solid fa-jar"></i> <b>Rendement :</b> ~1 tasse</span>
+</div>
+
 > **Ingrédients :**
 > * ½ t huile
 > * ¼ t miel liquide
@@ -27,7 +34,16 @@ permalink: /sauces
 > * ¼ c. à thé sucre
 > * ¼ c. à thé persil
 
+---
+
 ## Sauce crémeuse à l'aneth
+
+<div class="info-recette">
+  <span><i class="fa-solid fa-clock"></i> <b>Prep :</b> 5 min</span>
+  <span><i class="fa-solid fa-fire"></i> <b>Cuisson :</b> 0 min</span>
+  <span><i class="fa-solid fa-jar"></i> <b>Rendement :</b> ~¾ tasse</span>
+</div>
+
 > **Ingrédients :**
 > * 1/2 tasse de crème sure ou yogourt grec nature
 > * 1 à 2 c. à soupe de mayonnaise
@@ -46,6 +62,13 @@ permalink: /sauces
 ---
 
 ## Sauce Diable
+
+<div class="info-recette">
+  <span><i class="fa-solid fa-clock"></i> <b>Prep :</b> 5 min</span>
+  <span><i class="fa-solid fa-fire"></i> <b>Cuisson :</b> 10 min</span>
+  <span><i class="fa-solid fa-jar"></i> <b>Rendement :</b> ~1 tasse</span>
+</div>
+
 > **Ingrédients :**
 > * 1/4 tasse huile végétale
 > * 3 gousses d'ail hachées finement
@@ -68,6 +91,12 @@ permalink: /sauces
 
 ## Marinade Sésame et Gingembre
 
+<div class="info-recette">
+  <span><i class="fa-solid fa-clock"></i> <b>Prep :</b> 5 min</span>
+  <span><i class="fa-solid fa-fire"></i> <b>Cuisson :</b> 0 min</span>
+  <span><i class="fa-solid fa-drumstick-bite"></i> <b>Pour :</b> ~450 g de viande</span>
+</div>
+
 > **Ingrédients :**
 > * 3 c. à soupe Sauce soja
 > * 1 c. à soupe Huile de sésame grillé
@@ -85,6 +114,12 @@ permalink: /sauces
 ---
 
 ## Vinaigrette "Asiatique" au Beurre de Cacahuète
+
+<div class="info-recette">
+  <span><i class="fa-solid fa-clock"></i> <b>Prep :</b> 5 min</span>
+  <span><i class="fa-solid fa-fire"></i> <b>Cuisson :</b> 0 min</span>
+  <span><i class="fa-solid fa-jar"></i> <b>Rendement :</b> ~½ tasse</span>
+</div>
 
 > **Ingrédients :**
 > * 2 c. à soupe Beurre de cacahuète
