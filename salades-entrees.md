@@ -227,3 +227,32 @@ permalink: /salades-entrees
 > 3. Ajouter l'orzo refroidi, le concombre, l'oignon rouge, les câpres et les herbes fraîches dans le saladier, puis bien touiller.
 > 4. Incorporer délicatement le fromage feta et les morceaux de saumon fumé.
 > 5. Laisser reposer au réfrigérateur au moins 15 minutes avant de servir bien frais.
+
+---
+
+## Salade de pommes de terre au saumon fumé
+
+<div class="info-recette">
+  <span><i class="fa-solid fa-clock"></i> <b> Prep :</b> 15 min</span>
+  <span><i class="fa-solid fa-fire"></i> <b> Cuisson :</b> 15 min</span>
+  <span><i class="fa-solid fa-utensils"></i> <b> Portions :</b> 4</span>
+</div>
+
+> **Ingrédients :**
+> * 750 g pommes de terre grelots, coupées en deux ou en quatre
+> * 150 g saumon fumé, coupé en lanières
+> * 1/3 tasse cornichons à la dill, hachés
+> * 3 c. à soupe aneth frais, haché
+> * 4 tranches bacon, cuit croustillant et émietté (optionnel)
+> * 1/2 tasse mayonnaise
+> * 1 c. à soupe sirop d'érable
+> * 1 c. à soupe vinaigre de vin blanc
+> * 1 c. à thé moutarde de Dijon
+> * Sel et poivre du moulin, au goût
+>
+> **Préparation :**
+> 1. Placer les pommes de terre grelots dans une casserole, couvrir d'eau froide salée, porter à ébullition et cuire environ 10 à 12 minutes jusqu'à ce qu'elles soient tendres.
+> 2. Égoutter les pommes de terre et les laisser refroidir complètement.
+> 3. Dans un grand bol, fouetter la mayonnaise, le sirop d'érable, le vinaigre de vin blanc et la moutarde de Dijon jusqu'à l'obtention d'une texture lisse.
+> 4. Ajouter les grelots refroidis, le saumon fumé, les cornichons, l'aneth et le bacon émietté (si utilisé) dans le bol.
+> 5. Mélanger délicatement pour bien enrober tous les ingrédients, rectifier l'assaisonnement avec le sel et le poivre, puis réserver au frais au moins 30 minutes avant de servir.
