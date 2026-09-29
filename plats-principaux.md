@@ -327,3 +327,36 @@ permalink: /plats-principaux
 > 3. Dans un bol, mélanger le jus de lime, la sauce soya, les huiles et le gingembre.
 > 4. Ajouter le thon, la pomme, l'échalote et enrober délicatement.
 > 5. Incorporer les noix de cajou, le sésame et la coriandre. Servir immédiatement.
+
+---
+
+## Chili garlic ramen au porc haché
+
+<div class="info-recette">
+  <span><i class="fa-solid fa-clock"></i> <b> Prep :</b>  10 min</span>
+  <span><i class="fa-solid fa-fire"></i> <b> Cuisson :</b>  15 min</span>
+  <span><i class="fa-solid fa-utensils"></i> <b> Portions :</b>  2</span>
+</div>
+
+> **Ingrédients :**
+> * 3 paquets de nouilles ramen
+> * 250 g de porc haché
+> * 4 gousses d’ail, finement hachées
+> * 2 c. à soupe de chili crisp oil
+> * 4 c. à soupe de sauce soya
+> * 1.5 c. à soupe de vinaigre de riz
+> * 1 c. à soupe d’huile de sésame grillé
+> * 1 c. à thé de sucre
+> * 3 oignons verts
+> * 1 c. à soupe de graines de sésame
+>
+> **Préparation :**
+> 1. Faire cuire les nouilles. Réserver 1 louche d’eau de cuisson.
+> 2. Cuire le porc dans un filet d’huile et le laisser bien griller avant de le briser en petits morceaux.
+> 3. Ajouter le blanc des oignons verts et cuire 1 minute.
+> 4. Ajouter 2 c. à soupe de sauce soya et le sucre. Faire caraméliser pendant 1 à 2 minutes. Réserver le porc.
+> 5. Dans la même poêle, ajouter l’ail et le chili crisp. Faire revenir pendant 30 secondes.
+> 6. Ajouter les 2 c. à soupe de sauce soya restantes, le vinaigre de riz, l’huile de sésame et l’eau de cuisson.
+> 7. Ajouter les nouilles et mélanger jusqu’à ce que la sauce enrobe complètement les ramen.
+> 8. Remettre le porc et mélanger.
+> 9. Garnir avec le reste des oignons verts et les graines de sésame.
