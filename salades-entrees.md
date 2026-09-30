@@ -170,35 +170,7 @@ permalink: /salades-entrees
 
 ---
 
-## Orzo crémeux au saumon fumé et à l'aneth
 
-<div class="info-recette">
-  <span><i class="fa-solid fa-clock"></i> <b>Prep :</b> 10 min</span>
-  <span><i class="fa-solid fa-fire"></i> <b>Cuisson :</b> 12 min</span>
-  <span><i class="fa-solid fa-utensils"></i> <b>Portions :</b> 2</span>
-</div>
-
-> **Ingrédients :**
-> * 200 g orzo
-> * 150 g saumon fumé, coupé en lanières
-> * 1 c. à soupe huile d'olive
-> * 1 unité échalote française, hachée finement
-> * 1 gousse ail, hachée
-> * 1/2 tasse bouillon de légumes (ou de poisson)
-> * 1/3 tasse crème 15% (ou crème fraîche)
-> * 2 c. à soupe jus de citron
-> * 1/4 tasse aneth frais, haché
-> * 2 c. à soupe câpres, égouttées
-> * 1 pincée sel et poivre noir du moulin
->
-> **Préparation :**
-> 1. Faire cuire l'orzo dans une grande casserole d'eau bouillante salée selon les indications sur l'emballage, puis égoutter en conservant un peu d'eau de cuisson.
-> 2. Dans une grande poêle, faire chauffer l'huile d'olive à feu moyen et faire revenir l'échalote et l'ail pendant 2 à 3 minutes sans les faire brunir.
-> 3. Verser le bouillon et la crème, puis laisser mijoter doucement pendant 2 minutes pour épaissir la sauce.
-> 4. Ajouter l'orzo cuit, le jus de citron, les câpres et l'aneth, puis bien mélanger (ajouter un peu d'eau de cuisson réservée si la sauce est trop épaisse).
-> 5. Retirer du feu, incorporer délicatement les lanières de saumon fumé pour éviter de trop les cuire, poivrer, puis servir immédiatement.
-
----
 
 ## Salade d'orzo fraîche au saumon fumé, concombre et feta
 
