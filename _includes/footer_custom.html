@@ -1,13 +1,63 @@
 <script>
-  document.addEventListener("DOMContentLoaded", function() {
+  window.addEventListener("load", function() {
+    // 1. Tri de la TOC
     const toc = document.getElementById("markdown-toc");
     if (toc) {
       const items = Array.from(toc.children);
       items.sort((a, b) => a.textContent.trim().localeCompare(b.textContent.trim(), 'fr'));
       items.forEach((/** @type {Node} */ item) => toc.appendChild(item));
     }
+
+    // 2. Tri des recettes sans toucher au Markdown
+    const main = document.querySelector(".main-content") || document.body;
+    const h2s = Array.from(main.querySelectorAll("h2")).filter(
+      h => !h.closest("#markdown-toc") && !h.closest(".toc")
+    );
+
+    if (h2s.length < 2) return;
+
+    // Trouver où commence la première recette
+    const startNode = h2s[0];
+    const parent = startNode.parentNode;
+    if (!parent) return;
+
+    const recipeBlocks = [];
+
+    h2s.forEach(h2 => {
+      // Créer un wrapper autonome pour chaque recette
+      const box = document.createElement("div");
+      box.className = "recipe-block";
+      
+      let curr = h2;
+      while (curr) {
+        const next = curr.nextSibling;
+        box.appendChild(curr); // Déplace l'élément dans le wrapper de la recette
+        
+        // S'arrêter si le prochain élément est un autre H2 de recette
+        if (next && next.nodeType === 1 && /** @type {HTMLElement} */(next).tagName === 'H2') {
+          break;
+        }
+        curr = next;
+      }
+
+      recipeBlocks.push({
+        title: h2.textContent.trim(),
+        element: box
+      });
+    });
+
+    // Trier les wrappers par ordre alphabétique
+    recipeBlocks.sort((a, b) => a.title.localeCompare(b.title, 'fr'));
+
+    // Créer le conteneur principal et réinsérer les recettes triées
+    const container = document.createElement("div");
+    container.id = "sorted-recipes-container";
+    
+    recipeBlocks.forEach(b => container.appendChild(b.element));
+    
+    // Placer le conteneur exactement là où la première recette commençait
+    parent.appendChild(container);
   });
 </script>
-
 
 
