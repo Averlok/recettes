@@ -1,10 +1,51 @@
 <script>
   document.addEventListener("DOMContentLoaded", function() {
+    // 1. Tri de la TOC
     const toc = document.getElementById("markdown-toc");
     if (toc) {
       const items = Array.from(toc.children);
       items.sort((a, b) => a.textContent.trim().localeCompare(b.textContent.trim(), 'fr'));
       items.forEach(item => toc.appendChild(item));
     }
+
+    // 2. Tri des recettes (sections H2) sans modifier le Markdown
+    // On cherche le parent principal du contenu
+    const mainContent = document.querySelector(".main-content, main, article, #main-content") || document.body;
+    
+    // Récupérer tous les H2 de la page
+    const h2Elements = Array.from(mainContent.querySelectorAll("h2"));
+    if (h2Elements.length === 0) return;
+
+    const recipes = [];
+
+    h2Elements.forEach(h2 => {
+      // Ignorer les H2 qui feraient partie de la TOC elle-même
+      if (h2.closest("#markdown-toc")) return;
+
+      const nodes = [h2];
+      let sibling = h2.nextSibling;
+
+      // Rassembler tous les éléments sous le H2 jusqu'au prochain H2
+      while (sibling && sibling.tagName !== 'H2') {
+        const next = sibling.nextSibling;
+        nodes.push(sibling);
+        sibling = next;
+      }
+
+      recipes.push({
+        title: h2.textContent.trim(),
+        parent: h2.parentNode,
+        nodes: nodes
+      });
+    });
+
+    // Trier les recettes en ordre alphabétique
+    recipes.sort((a, b) => a.title.localeCompare(b.title, 'fr'));
+
+    // Réinsérer les blocs triés dans le DOM
+    recipes.forEach(recipe => {
+      recipe.nodes.forEach(node => recipe.parent.appendChild(node));
+    });
   });
 </script>
+
