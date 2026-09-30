@@ -175,3 +175,56 @@ permalink: /biscuits-friandises
 > 7. Déposer un disque de meringue, une couche de crème fouettée et une bonne poignée d’Oreo. Répéter avec les autres disques.
 > 8. Couvrir le dessus et les côtés de crème, puis décorer avec les Oreo réservés.
 > 9. Congeler 1 heure avant de servir.
+
+---
+
+## Nom de la recette
+
+<div class="info-recette">
+  <span><i class="fa-solid fa-clock"></i> <b> Prep :</b>  25 min</span>
+  <span><i class="fa-solid fa-fire"></i> <b> Cuisson :</b>  25 min</span>
+  <span><i class="fa-solid fa-utensils"></i> <b> Portions :</b>  8</span>
+</div>
+
+> **Ingrédients :**
+> * **Pâte à brioche :**
+> * 400 ml farine
+> * 200 ml lait tiède
+> * 1 œuf
+> * 75 ml beurre mou
+> * 7-8 g levure sèche
+> * 65 ml sucre
+> * 1 c. à thé vanille
+> * 1 pincée sel
+>
+> * **Garniture pommes & pacanes :**
+> * 2 pommes en petits dés
+> * 40 ml pacanes hachées
+> * 2 c. à soupe beurre
+> * 40 ml cassonade
+> * 2 c. à soupe sirop d’érable
+> * 1 c. à thé cannelle
+> * 1 pincée sel
+> * Fécule de maïs au besoin
+>
+> * **Crumble :**
+> * 50 ml farine
+> * 35 ml d’avoine
+> * 35 ml cassonade
+> * 35 ml beurre fondu
+> * 25 ml pacanes hachées
+> * 1 pincée sel
+>
+> * **Glaçage :**
+> * 120 ml sucre à glacer
+> * 2 c. à soupe crème 35 % ou de lait
+> * 1 c. à thé vanille
+> * Sucre à glacer au besoin
+>
+> **Préparation :**
+> 1. Pâte : Mélange le lait, la levure et le sucre. Laisse reposer 5 min. Ajoute l'œuf, la vanille, la farine et le sel. Pétris 5 min, puis ajoute le beurre mou graduellement. Pétris encore 8–10 min. Couvre et laisse lever 1 h à 1 h 30.
+> 2. Garniture : Fais revenir les pommes avec le beurre, la cassonade, la cannelle et le sel 4–5 min. Ajoute le sirop d'érable et les pacanes, puis cuis 1–2 min. Ajoute un peu de fécule au besoin et laisse refroidir.
+> 3. Crumble : Mélange tous les ingrédients jusqu’à obtenir une texture granuleuse.
+> 4. Former les brioches : Divise la pâte en 8 boules et dépose-les sur une plaque. Avec un verre ou le dos d’une cuillère, creuse légèrement le centre sans percer. Garnis le centre avec la garniture de pommes.
+> 5. Cuisson : Badigeonne les côtés d’œuf battu, ajoute le crumble et cuis à 350 °F (175 °C) pendant 18–25 min, jusqu’à ce que ce soit bien doré.
+> 6. Glaçage : Mélange les ingrédients et ajuste avec du sucre à glacer. Verse sur les brioches refroidies.
