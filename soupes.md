@@ -47,3 +47,45 @@ permalink: /soupes
 > 1. Faire revenir la pancetta et les oignons 5 min, ajouter les légumes (2 min), puis l'ail et les herbes (1 min).
 > 2. Déglacer au vin, puis ajouter bouillons, tomates, haricots et croûte de parmesan. Mijoter 10 min.
 > 3. Ajouter les pâtes, arrêter la cuisson 2 minutes avant la fin du temps "al dente", laisser reposer 5 minutes et servir.
+
+---
+
+## Potage aux allures indiennes
+
+<div class="info-recette">
+  <span><i class="fa-solid fa-clock"></i> <b> Prep :</b>  15 min</span>
+  <span><i class="fa-solid fa-fire"></i> <b> Cuisson :</b>  25 min</span>
+  <span><i class="fa-solid fa-utensils"></i> <b> Portions :</b>  4</span>
+</div>
+
+> **Ingrédients :**
+> * 2 c. à soupe huile
+> * 1 c. à soupe beurre
+> * 1 oignon haché
+> * 2 gousses ail hachées
+> * 1 c. à soupe gingembre frais râpé
+> * 1 c. à thé garam masala
+> * 1 c. à thé cumin moulu
+> * 1/2 c. à thé curcuma
+> * 1/2 c. à thé coriandre moulue
+> * 1/4 c. à thé piment de cayenne
+> * 1 pincée cannelle
+> * 1 tête chou-fleur coupée en bouquets
+> * 2 moyennes pommes de terre pelées et coupées en dés
+> * 4 tasses bouillon de poulet
+> * 1 boîte (400 ml) lait de coco
+> * au goût sel et poivre
+> * 1 filet crème pour le service
+> * au goût coriandre fraîche pour le service
+> * au goût menthe fraîche pour le service
+> * 4 pains naan grillés pour le service
+>
+> **Préparation :**
+> 1. Faire chauffer l'huile et le beurre dans une grosse cocotte.
+> 2. Ajouter les oignons, l'ail et le gingembre et faire revenir.
+> 3. Incorporer les épices (garam masala, cumin, curcuma, coriandre, cayenne et cannelle) puis laisser les arômes se réveiller.
+> 4. Couper le chou-fleur en morceaux et l'ajouter dans la cocotte avec les pommes de terre.
+> 5. Verser le bouillon de poulet et porter à ébullition pendant 15 à 20 minutes.
+> 6. Mixer le tout avec un mixeur plongeant jusqu'à obtenir une consistance lisse.
+> 7. Ajouter le lait de coco et ajuster l'assaisonnement avec du sel et du poivre.
+> 8. Servir la soupe avec un filet de crème, des herbes fraîches (coriandre et menthe) et des morceaux de pain naan grillés.
