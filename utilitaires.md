@@ -165,6 +165,21 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ---
 
+## <i class="fa-solid fa-layer-group"></i> Positionnement des grilles de four
+
+| Position dans le four | Types de plats recommandés | Pourquoi cette position ? |
+| :--- | :--- | :--- |
+| **Grille supérieure** *(Haut)* | • Brochettes, gratins, lasagnes (fin de cuisson)<br>• Pizzas (pour griller le fromage)<br>• Viandes minces à griller (*Broil*) | Rapproche les aliments de l'élément supérieur pour **dorer, griller ou gratiner** rapidement sans trop cuire l'intérieur. |
+| **Grille centrale** *(Milieu)* | • Gâteaux, muffins, biscuits<br>• Pains et brioches<br>• Pâtés, quiches, casseroles<br>• Rôtis de viande et volailles | **Option par défaut.** Assure une circulation d'air chaud uniforme tout autour du plat sans risquer de brûler le dessus ou le dessous. |
+| **Grille inférieure** *(Bas)* | • Pizzas (sur pierre ou plaque)<br>• Tartes (pour cuire la pâte du dessous)<br>• Grosses pièces de viande (dinde, gigot) | Offre une chaleur directe par le bas pour **rendre le dessous croustillant**. Libère de l'espace en hauteur pour les gros plats. |
+
+> **Conseils pratiques :**
+> * **Cuisson multi-niveaux :** Utiliser les positions haute et basse, puis intervertir les plaques à mi-cuisson.
+> * **Chaleur tournante (Convection) :** La température étant plus uniforme, le choix de la grille est moins critique, mais le milieu reste l'option idéale par défaut.
+
+
+---
+
 ## <i class="fa-solid fa-kit-medical"></i> Substituts de dépannage
 
 * **1 tasse de babeurre** <i class="fa-solid fa-arrow-right" style="color: #422956; font-size: 0.9em; margin: 0 5px;"></i> 1 tasse de lait + 1 c. à soupe de jus de citron (attendre 5 min).
