@@ -1,32 +1,30 @@
 <script>
   document.addEventListener("DOMContentLoaded", function() {
-    // 1. Tri de la TOC
+    // 1. Tri alphabétique de la TOC
     const toc = document.getElementById("markdown-toc");
     if (toc) {
       const items = Array.from(toc.children);
       items.sort((a, b) => a.textContent.trim().localeCompare(b.textContent.trim(), 'fr'));
-      items.forEach(item => toc.appendChild(item));
+      items.forEach((/** @type {Node} */ item) => toc.appendChild(item));
     }
 
-    // 2. Tri des recettes (sections H2 ou H3)
+    // 2. Tri alphabétique des recettes (H2 et H3)
     const mainContent = document.querySelector(".main-content, main, article, #main-content") || document.body;
     
-    // On cherche les H2 ou H3 dans la page
-    const headings = Array.from(mainContent.querySelectorAll("h2, h3"));
+    // Récupérer tous les titres H2 ou H3 du contenu principal (hors TOC)
+    const rawHeadings = Array.from(mainContent.querySelectorAll("h2, h3"));
+    const headings = rawHeadings.filter(h => !h.closest("#markdown-toc") && !h.closest(".toc"));
+    
     if (headings.length === 0) return;
 
     const recipes = [];
 
     headings.forEach(heading => {
-      // On ignore ce qui est dans la TOC
-      if (heading.closest("#markdown-toc")) return;
-
-      const tag = heading.tagName;
       const nodes = [heading];
       let sibling = heading.nextSibling;
 
-      // Rassembler tout le contenu jusqu'au prochain titre de même niveau ou supérieur
-      while (sibling && sibling.tagName !== tag) {
+      // Rassembler tous les éléments jusqu'au PROCHAIN titre (H1, H2, H3, H4, etc.)
+      while (sibling && !['H1', 'H2', 'H3', 'H4', 'H5', 'H6'].includes(sibling.tagName)) {
         const next = sibling.nextSibling;
         nodes.push(sibling);
         sibling = next;
@@ -39,10 +37,10 @@
       });
     });
 
-    // Tri par ordre alphabétique
+    // Trier les recettes par ordre alphabétique
     recipes.sort((a, b) => a.title.localeCompare(b.title, 'fr'));
 
-    // Réinsertion propre sans avertissement TypeScript
+    // Réinsérer proprement dans le DOM
     recipes.forEach(recipe => {
       recipe.nodes.forEach((/** @type {Node} */ node) => {
         recipe.parent.appendChild(node);
