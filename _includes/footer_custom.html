@@ -1,66 +1,64 @@
 <script>
   window.addEventListener("load", function() {
-    setTimeout(function() {
-      // 1. Tri de la TOC
-      const toc = document.getElementById("markdown-toc");
-      if (toc) {
-        const items = Array.from(toc.children);
-        items.sort((a, b) => a.textContent.trim().localeCompare(b.textContent.trim(), 'fr'));
-        items.forEach((/** @type {Node} */ item) => toc.appendChild(item));
-        console.log("TOC triée avec succès!");
+    // 1. Tri alphabétique de la TOC (Kramdown)
+    const toc = document.getElementById("markdown-toc");
+    if (toc) {
+      const items = Array.from(toc.children);
+      items.sort((a, b) => a.textContent.trim().localeCompare(b.textContent.trim(), 'fr'));
+      items.forEach((/** @type {Node} */ item) => toc.appendChild(item));
+    }
+
+    // 2. Tri des recettes (sections H2)
+    const mainContent = document.querySelector(".main-content, main, article, #main-content") || document.body;
+    
+    // Récupérer uniquement les H2 qui sont le titre d'une recette
+    const h2List = Array.from(mainContent.querySelectorAll("h2")).filter(
+      h => !h.closest("#markdown-toc") && !h.closest(".toc")
+    );
+
+    if (h2List.length < 2) return;
+
+    const firstH2 = h2List[0];
+    const parent = firstH2.parentNode;
+    if (!parent) return;
+
+    // Créer un conteneur dédié juste après la TOC pour ne pas toucher au header de page
+    const container = document.createElement("div");
+    container.id = "recipes-container";
+    parent.insertBefore(container, firstH2);
+
+    const recipes = [];
+
+    h2List.forEach(h2 => {
+      const nodes = [h2];
+      let sibling = h2.nextSibling;
+
+      // Absorber tout le contenu jusqu'au prochain H2 ou la fin du bloc
+      while (sibling) {
+        const next = sibling.nextSibling;
+        if (sibling.nodeType === 1) {
+          const el = /** @type {HTMLElement} */ (sibling);
+          if (el.tagName === 'H2') break;
+        }
+        nodes.push(sibling);
+        sibling = next;
       }
 
-      // 2. Tri des recettes
-      const mainContent = document.querySelector(".main-content, main, article, #main-content") || document.body;
-      const headings = Array.from(mainContent.querySelectorAll("h2, h3")).filter(
-        h => !h.closest("#markdown-toc") && !h.closest(".toc")
-      );
-
-      console.log("Titres de recettes trouvés :", headings.map(h => h.textContent.trim()));
-
-      if (headings.length < 2) return;
-
-      const firstHeading = headings[0];
-      const parent = firstHeading.parentNode;
-      if (!parent) return;
-
-      const recipeContainer = document.createElement("div");
-      recipeContainer.id = "recipes-wrapper";
-      parent.insertBefore(recipeContainer, firstHeading);
-
-      const recipes = [];
-
-      headings.forEach(heading => {
-        const tag = heading.tagName;
-        const nodes = [heading];
-        let sibling = heading.nextSibling;
-
-        while (sibling) {
-          const next = sibling.nextSibling;
-          if (sibling.nodeType === 1) {
-            const el = /** @type {HTMLElement} */ (sibling);
-            if (['H1', 'H2', tag].includes(el.tagName)) break;
-          }
-          nodes.push(sibling);
-          sibling = next;
-        }
-
-        recipes.push({
-          title: heading.textContent.trim(),
-          nodes: nodes
-        });
+      recipes.push({
+        title: h2.textContent.trim(),
+        nodes: nodes
       });
+    });
 
-      recipes.sort((a, b) => a.title.localeCompare(b.title, 'fr'));
+    // Trier les recettes par ordre alphabétique du titre
+    recipes.sort((a, b) => a.title.localeCompare(b.title, 'fr'));
 
-      recipes.forEach(recipe => {
-        recipe.nodes.forEach((/** @type {Node} */ node) => {
-          recipeContainer.appendChild(node);
-        });
+    // Déplacer les blocs de recettes triés dans le nouveau conteneur
+    recipes.forEach(recipe => {
+      recipe.nodes.forEach((/** @type {Node} */ node) => {
+        container.appendChild(node);
       });
-
-      console.log("Recettes triées et réinsérées!");
-    }, 300); // Petit délai pour laisser Just the Docs finir d'afficher la page
+    });
   });
 </script>
 
