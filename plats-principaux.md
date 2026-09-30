@@ -11,7 +11,7 @@ permalink: /plats-principaux
 
 
 - Table des matières 
-{:toc min_level=3 max_level=3}
+{:toc min_level=2 max_level=2}
 
 ---
 
