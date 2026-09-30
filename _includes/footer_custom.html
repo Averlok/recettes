@@ -8,31 +8,44 @@
       items.forEach((/** @type {Node} */ item) => toc.appendChild(item));
     }
 
-    // 2. Tri alphabétique des recettes (H2 et H3)
+    // 2. Tri alphabétique des recettes
     const mainContent = document.querySelector(".main-content, main, article, #main-content") || document.body;
+    const headings = Array.from(mainContent.querySelectorAll("h2, h3")).filter(
+      h => !h.closest("#markdown-toc") && !h.classList.contains("nav-panel-title")
+    );
+
+    if (headings.length < 2) return;
+
+    // Isoler le premier titre pour savoir où commence la liste des recettes
+    const firstHeading = headings[0];
+    const recipeContainer = document.createElement("div");
+    recipeContainer.id = "recipes-wrapper";
     
-    // Récupérer tous les titres H2 ou H3 du contenu principal (hors TOC)
-    const rawHeadings = Array.from(mainContent.querySelectorAll("h2, h3"));
-    const headings = rawHeadings.filter(h => !h.closest("#markdown-toc") && !h.closest(".toc"));
-    
-    if (headings.length === 0) return;
+    // Insérer le wrapper juste avant la première recette
+    firstHeading.parentNode.insertBefore(recipeContainer, firstHeading);
 
     const recipes = [];
 
     headings.forEach(heading => {
+      const tag = heading.tagName;
       const nodes = [heading];
       let sibling = heading.nextSibling;
 
-      // Rassembler tous les éléments jusqu'au PROCHAIN titre (H1, H2, H3, H4, etc.)
-      while (sibling && !['H1', 'H2', 'H3', 'H4', 'H5', 'H6'].includes(sibling.tagName)) {
+      // Rassembler tout le contenu de la recette (y compris les <hr>)
+      while (sibling) {
         const next = sibling.nextSibling;
+        if (sibling.nodeType === 1) { // Element node
+          const el = /** @type {HTMLElement} */ (sibling);
+          if (['H1', 'H2', tag].includes(el.tagName)) {
+            break;
+          }
+        }
         nodes.push(sibling);
         sibling = next;
       }
 
       recipes.push({
         title: heading.textContent.trim(),
-        parent: heading.parentNode,
         nodes: nodes
       });
     });
@@ -40,12 +53,13 @@
     // Trier les recettes par ordre alphabétique
     recipes.sort((a, b) => a.title.localeCompare(b.title, 'fr'));
 
-    // Réinsérer proprement dans le DOM
+    // Déplacer les recettes triées DANS le wrapper dédié
     recipes.forEach(recipe => {
       recipe.nodes.forEach((/** @type {Node} */ node) => {
-        recipe.parent.appendChild(node);
+        recipeContainer.appendChild(node);
       });
     });
   });
 </script>
+
 
