@@ -1,0 +1,17 @@
+{
+  "short_name": "Livre HériLoup",
+  "name": "Livre de recettes HériLoup",
+  "icons": [
+    {
+      "src": "/assets/images/apple-touch-icon.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/?utm_source=homescreen",
+  "background_color": "#ffffff",
+  "theme_color": "#422956",
+  "display": "standalone",
+  "scope": "/"
+}
