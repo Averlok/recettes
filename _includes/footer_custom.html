@@ -8,43 +8,45 @@
       items.forEach(item => toc.appendChild(item));
     }
 
-    // 2. Tri des recettes (sections H2) sans modifier le Markdown
-    // On cherche le parent principal du contenu
+    // 2. Tri des recettes (sections H2 ou H3)
     const mainContent = document.querySelector(".main-content, main, article, #main-content") || document.body;
     
-    // Récupérer tous les H2 de la page
-    const h2Elements = Array.from(mainContent.querySelectorAll("h2"));
-    if (h2Elements.length === 0) return;
+    // On cherche les H2 ou H3 dans la page
+    const headings = Array.from(mainContent.querySelectorAll("h2, h3"));
+    if (headings.length === 0) return;
 
     const recipes = [];
 
-    h2Elements.forEach(h2 => {
-      // Ignorer les H2 qui feraient partie de la TOC elle-même
-      if (h2.closest("#markdown-toc")) return;
+    headings.forEach(heading => {
+      // On ignore ce qui est dans la TOC
+      if (heading.closest("#markdown-toc")) return;
 
-      const nodes = [h2];
-      let sibling = h2.nextSibling;
+      const tag = heading.tagName;
+      const nodes = [heading];
+      let sibling = heading.nextSibling;
 
-      // Rassembler tous les éléments sous le H2 jusqu'au prochain H2
-      while (sibling && sibling.tagName !== 'H2') {
+      // Rassembler tout le contenu jusqu'au prochain titre de même niveau ou supérieur
+      while (sibling && sibling.tagName !== tag) {
         const next = sibling.nextSibling;
         nodes.push(sibling);
         sibling = next;
       }
 
       recipes.push({
-        title: h2.textContent.trim(),
-        parent: h2.parentNode,
+        title: heading.textContent.trim(),
+        parent: heading.parentNode,
         nodes: nodes
       });
     });
 
-    // Trier les recettes en ordre alphabétique
+    // Tri par ordre alphabétique
     recipes.sort((a, b) => a.title.localeCompare(b.title, 'fr'));
 
-    // Réinsérer les blocs triés dans le DOM
+    // Réinsertion propre sans avertissement TypeScript
     recipes.forEach(recipe => {
-      recipe.nodes.forEach(node => recipe.parent.appendChild(node));
+      recipe.nodes.forEach((/** @type {Node} */ node) => {
+        recipe.parent.appendChild(node);
+      });
     });
   });
 </script>
