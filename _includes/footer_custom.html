@@ -1,0 +1,10 @@
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const toc = document.getElementById("markdown-toc");
+    if (toc) {
+      const items = Array.from(toc.children);
+      items.sort((a, b) => a.textContent.trim().localeCompare(b.textContent.trim(), 'fr'));
+      items.forEach(item => toc.appendChild(item));
+    }
+  });
+</script>
