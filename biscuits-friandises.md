@@ -178,7 +178,7 @@ permalink: /biscuits-friandises
 
 ---
 
-## Nom de la recette
+## Brioches aux pommes, pacanes et crumble
 
 <div class="info-recette">
   <span><i class="fa-solid fa-clock"></i> <b> Prep :</b>  25 min</span>
