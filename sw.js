@@ -1,4 +1,4 @@
-// Service Worker minimal pour valider les critères PWA d'Android
+// Service Worker corrigé
 self.addEventListener('install', (event) => {
   self.skipWaiting();
 });
@@ -8,6 +8,12 @@ self.addEventListener('activate', (event) => {
 });
 
 self.addEventListener('fetch', (event) => {
-  // Laisse passer les requêtes normalement
-  event.respondWith(fetch(event.request));
+  // Laisse le navigateur charger la page directement depuis le réseau
+  event.respondWith(
+    fetch(event.request).catch(() => {
+      // Évite le blocage en cas d'erreur de réseau
+      return new Response("Erreur de connexion");
+    })
+  );
 });
+
