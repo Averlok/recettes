@@ -391,3 +391,33 @@ permalink: /plats-principaux
 > 4. Ajouter l'orzo cuit, le jus de citron, les câpres et l'aneth, puis bien mélanger (ajouter un peu d'eau de cuisson réservée si la sauce est trop épaisse).
 > 5. Retirer du feu, incorporer délicatement les lanières de saumon fumé pour éviter de trop les cuire, poivrer, puis servir immédiatement.
 
+---
+
+## Pâtes crémeuses poulet, pesto et tomates séchées
+
+<div class="info-recette">
+  <span><i class="fa-solid fa-clock"></i> <b> Prep :</b>  15 min</span>
+  <span><i class="fa-solid fa-fire"></i> <b> Cuisson :</b>  15 min</span>
+  <span><i class="fa-solid fa-utensils"></i> <b> Portions :</b>  4</span>
+</div>
+
+> **Ingrédients :**
+> * 350 g pâtes (penne ou rigatoni)
+> * 2 poitrines de poulet, coupées en dés
+> * 1/2 tasse pesto de basilic
+> * 1/2 tasse tomates séchées dans l'huile, égouttées et hachées
+> * 1 tasse crème 35%
+> * 2 gousses d'ail, hachées fin
+> * 1/2 tasse fromage parmesan, râpé
+> * 1 c. à soupe huile d'olive (ou l'huile des tomates séchées)
+> * Sel et poivre noir du moulin, au goût
+>
+> **Préparation :**
+> 1. Dans une grande casserole d'eau bouillante salée, cuire les pâtes selon les instructions de l'emballage jusqu'à consistance al dente. Égoutter en conservant environ 1/2 tasse d'eau de cuisson.
+> 2. Pendant ce temps, chauffer l'huile dans une grande poêle à feu moyen-élevé. Ajouter les dés de poulet, saler, poivrer et cuire environ 6 à 8 minutes jusqu'à ce qu'ils soient bien dorés et cuits à cœur.
+> 3. Réduire à feu moyen. Ajouter l'ail et les tomates séchées, puis faire revenir pendant 1 minute jusqu'à ce que ce soit odorant.
+> 4. Verser la crème et incorporer le pesto. Laisser mijoter doucement pendant 2 à 3 minutes pour que la sauce réduise légèrement et enrobe le poulet.
+> 5. Ajouter les pâtes égouttées et le parmesan directement dans la poêle. Bien mélanger pour enrober le tout (ajouter un peu d'eau de cuisson réservée si la sauce est trop épaisse). Rectifier l'assaisonnement et servir aussitôt.
+
+
+
