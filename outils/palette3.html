@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Testeur de Palette HériLoup — Just the Docs</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    /* Variables de la palette */
+    :root {
+      --loup-vert: #234934;
+      --loup-vert-sauge: #84A381;
+      --herissonne-fuchsia: #6B2A3E;
+      --herissonne-fuchsia-doux: #9E4A63;
+      --herissonne-rose-fond: #F4EBF0;
+      --bois-accent: #A2683B;
+      --creme-fond: #FDFBF7;
+      --texte-noir: #2B2D2F;
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: #eef1f5;
+      color: var(--texte-noir);
+    }
+
+    /* Modèle à deux panneaux pour le testeur */
+    .app-layout {
+      display: flex;
+      min-height: 100vh;
+    }
+
+    /* Panneau de contrôle de la palette */
+    .palette-controls {
+      width: 380px;
+      background: #ffffff;
+      padding: 20px;
+      border-right: 1px solid #dcdfe6;
+      box-shadow: 2px 0 10px rgba(0,0,0,0.05);
+      overflow-y: auto;
+    }
+
+    .palette-controls h2 {
+      font-size: 1.1rem;
+      color: #333;
+      margin-top: 0;
+      margin-bottom: 15px;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 8px;
+    }
+
+    .color-card {
+      background: #f8f9fa;
+      border: 1px solid #e9ecef;
+      border-radius: 8px;
+      padding: 12px;
+      margin-bottom: 14px;
+    }
+
+    .color-picker-group {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 6px;
+    }
+
+    .color-picker-group label {
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: #212529;
+    }
+
+    .color-picker-group input[type="color"] {
+      border: none;
+      width: 34px;
+      height: 34px;
+      border-radius: 4px;
+      cursor: pointer;
+      background: none;
+    }
+
+    .color-description {
+      font-size: 0.8rem;
+      color: #6c757d;
+      margin: 0;
+      line-height: 1.35;
+    }
+
+    /* Zone de prévisualisation du site */
+    .preview-stage {
+      flex: 1;
+      display: flex;
+      background-color: var(--creme-fond);
+      overflow-y: auto;
+    }
+
+    /* Sidebar du thème Just the Docs */
+    .side-bar {
+      width: 260px;
+      background-color: var(--loup-vert) !important;
+      color: #ffffff;
+      padding: 24px 16px;
+      min-height: 100%;
+    }
+
+    .site-title {
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #ffffff !important;
+      margin-bottom: 24px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
+
+    .nav-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .nav-list-item {
+      margin-bottom: 4px;
+    }
+
+    .nav-list-link {
+      display: block;
+      padding: 8px 12px;
+      color: #ffffff !important;
+      text-decoration: none;
+      border-radius: 6px;
+      font-size: 0.9rem;
+      transition: background 0.2s;
+    }
+
+    .nav-list-item.active > .nav-list-link,
+    .nav-list-link:hover {
+      background-color: var(--herissonne-fuchsia) !important;
+      color: #ffffff !important;
+    }
+
+    /* Contenu principal de la recette */
+    .main-content {
+      flex: 1;
+      padding: 40px;
+      max-width: 850px;
+    }
+
+    .search-box {
+      border: 1px solid #e2e8f0;
+      padding: 8px 14px;
+      border-radius: 6px;
+      color: #94a3b8;
+      font-size: 0.9rem;
+      margin-bottom: 30px;
+      background: #ffffff;
+    }
+
+    .categorie-header {
+      background-color: var(--herissonne-fuchsia) !important;
+      color: #ffffff !important;
+      border-radius: 12px;
+      padding: 24px;
+      text-align: center;
+      border-left: 6px solid var(--bois-accent);
+      font-size: 1.8rem;
+      font-weight: bold;
+      margin-bottom: 24px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+
+    .toc {
+      margin-bottom: 30px;
+    }
+    .toc ul {
+      padding-left: 20px;
+    }
+    .toc li a {
+      color: var(--herissonne-fuchsia) !important;
+      text-decoration: none;
+    }
+    .toc li a:hover {
+      color: var(--loup-vert) !important;
+      text-decoration: underline;
+    }
+
+    h2 {
+      color: var(--loup-vert) !important;
+      border-bottom: 2px solid var(--loup-vert-sauge);
+      padding-bottom: 6px;
+      margin-top: 36px;
+      font-size: 1.4rem;
+    }
+
+    .info-recette {
+      background-color: var(--herissonne-rose-fond) !important;
+      border-left: 4px solid var(--herissonne-fuchsia) !important;
+      color: var(--loup-vert) !important;
+      padding: 10px 16px;
+      border-radius: 6px;
+      display: inline-flex;
+      gap: 16px;
+      font-size: 0.9rem;
+      margin-bottom: 20px;
+    }
+
+    .info-recette i {
+      color: var(--herissonne-fuchsia) !important;
+    }
+
+    blockquote.recipe-body {
+      background-color: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      padding: 20px 24px;
+      margin: 0 0 30px 0;
+    }
+
+    blockquote.recipe-body strong {
+      color: var(--loup-vert);
+      display: block;
+      margin-top: 12px;
+      margin-bottom: 8px;
+    }
+    blockquote.recipe-body strong:first-child { margin-top: 0; }
+
+    blockquote.recipe-body ul, 
+    blockquote.recipe-body ol {
+      padding-left: 20px;
+      margin-bottom: 16px;
+    }
+
+    blockquote.recipe-body ul li::marker {
+      color: var(--loup-vert-sauge) !important;
+    }
+
+    blockquote.recipe-body ol li::marker {
+      color: var(--herissonne-fuchsia) !important;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="app-layout">
+    <!-- Panneau de contrôle des couleurs -->
+    <div class="palette-controls">
+      <h2>Palette HériLoup</h2>
+      
+      <div class="color-card">
+        <div class="color-picker-group">
+          <label for="p-loup-vert">Vert Loup Principal</label>
+          <input type="color" id="p-loup-vert" value="#234934" onchange="updateColor('--loup-vert', this.value)">
+        </div>
+        <p class="color-description">Fond de la barre de navigation (Sidebar), titres des recettes (H2), texte des métadonnées et survol des liens.</p>
+      </div>
+
+      <div class="color-card">
+        <div class="color-picker-group">
+          <label for="p-loup-sauge">Vert Sauge Accent</label>
+          <input type="color" id="p-loup-sauge" value="#84A381" onchange="updateColor('--loup-vert-sauge', this.value)">
+        </div>
+        <p class="color-description">Bordure de soulignement des titres (H2) et puces des listes d'ingrédients (&lt;ul&gt;).</p>
+      </div>
+
+      <div class="color-card">
+        <div class="color-picker-group">
+          <label for="p-herissonne-fuchsia">Fuchsia Hérissonne</label>
+          <input type="color" id="p-herissonne-fuchsia" value="#6B2A3E" onchange="updateColor('--herissonne-fuchsia', this.value)">
+        </div>
+        <p class="color-description">Fond de l'en-tête de catégorie (Camping), élément actif/survol de la navigation, bordure d'accentuation des métadonnées, liens de la table des matières et chiffres d'étapes (&lt;ol&gt;).</p>
+      </div>
+
+      <div class="color-card">
+        <div class="color-picker-group">
+          <label for="p-herissonne-rose">Rose Fond Encadré</label>
+          <input type="color" id="p-herissonne-rose" value="#F4EBF0" onchange="updateColor('--herissonne-rose-fond', this.value)">
+        </div>
+        <p class="color-description">Fond doux du cartouche d'informations (.info-recette) regroupant le temps de prép, cuisson et portions.</p>
+      </div>
+
+      <div class="color-card">
+        <div class="color-picker-group">
+          <label for="p-bois">Bois Accent</label>
+          <input type="color" id="p-bois" value="#A2683B" onchange="updateColor('--bois-accent', this.value)">
+        </div>
+        <p class="color-description">Bordure latérale d'accent sur la carte de catégorie principale pour faire le rappel du badge gravé en bois.</p>
+      </div>
+
+      <div class="color-card">
+        <div class="color-picker-group">
+          <label for="p-creme">Crème Fond Page</label>
+          <input type="color" id="p-creme" value="#FDFBF7" onchange="updateColor('--creme-fond', this.value)">
+        </div>
+        <p class="color-description">Fond de page principal offrant un contraste chaud et reposant pour la lecture.</p>
+      </div>
+    </div>
+
+    <!-- Aperçu du site -->
+    <div class="preview-stage">
+      <div class="side-bar">
+        <div class="site-title">Livre de recettes HériLoup</div>
+        <ul class="nav-list">
+          <li class="nav-list-item"><a href="#" class="nav-list-link"><i class="fa-solid fa-house"></i> Accueil</a></li>
+          <li class="nav-list-item"><a href="#" class="nav-list-link"><i class="fa-solid fa-bread-slice"></i> Pains et Pizzas</a></li>
+          <li class="nav-list-item"><a href="#" class="nav-list-link"><i class="fa-solid fa-cookie-bite"></i> Desserts</a></li>
+          <li class="nav-list-item active"><a href="#" class="nav-list-link"><i class="fa-solid fa-campground"></i> Camping</a></li>
+        </ul>
+      </div>
+
+      <div class="main-content">
+        <div class="search-box">
+          <i class="fa-solid fa-magnifying-glass"></i> Search Livre de recettes HériLoup
+        </div>
+
+        <div class="categorie-header">
+          <i class="fa-solid fa-campground"></i> Camping
+        </div>
+
+        <div class="toc">
+          <ul>
+            <li><a href="#festin">Festin d'Action de grâce de randonnée</a></li>
+            <li><a href="#couscous">Couscous Ras-el-Hanout, Légumes et Fruits Secs</a></li>
+          </ul>
+        </div>
+
+        <h2 id="festin">Festin d'Action de grâce de randonnée</h2>
+        <div class="info-recette">
+          <span><i class="fa-solid fa-clock"></i> <b>Prep :</b> 5 min</span>
+          <span><i class="fa-solid fa-fire"></i> <b>Cuisson :</b> 10 min</span>
+          <span><i class="fa-solid fa-utensils"></i> <b>Portions :</b> 2</span>
+        </div>
+
+        <blockquote class="recipe-body">
+          <strong>Ingrédients :</strong>
+          <ul>
+            <li>½ tasse pommes de terre instantanées</li>
+            <li>1 cuillère à soupe lait en poudre</li>
+            <li>1 tasse farce séchée</li>
+            <li>2 cuillères à soupe canneberges séchées</li>
+          </ul>
+
+          <strong>Préparation :</strong>
+          <ol>
+            <li>À la maison : Dans un sac hermétique, mesurer les pommes de terre instantanées et le lait en poudre.</li>
+            <li>Au campement : Porter 2 tasses d'eau à ébullition. Réhydrater et servir chaud.</li>
+          </ol>
+        </blockquote>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function updateColor(variableName, colorValue) {
+      document.documentElement.style.setProperty(variableName, colorValue);
+    }
+  </script>
+</body>
+</html>

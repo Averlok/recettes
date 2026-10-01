@@ -1,0 +1,204 @@
+<style>
+  :root {
+    --vert-foret: #234934;      /* Titres principaux & bordures fortes */
+    --fuchsia-mat: #6B2A3E;     /* En-têtes & puces d'accent */
+    --bois-accent: #A2683B;     /* Bordures d'UI & puces */
+    --vert-sauge: #84A381;      /* Texte secondaire & sous-titres */
+    --creme-fond: #F9F6EE;      /* Fond de page principal */
+    --creme-encadre: #F3EFE0;   /* Fond des encadrés et cartes */
+    --texte-principal: #2B2D2F;  /* Texte des recettes */
+  }
+
+  body {
+    background-color: var(--creme-fond);
+    color: var(--texte-principal);
+    font-family: system-ui, -apple-system, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+  }
+
+  .page-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  /* En-tête de catégorie (Fuchsia Mât) */
+  .categorie-header {
+    background-color: var(--fuchsia-mat);
+    color: var(--creme-fond);
+    padding: 16px 20px;
+    border-radius: 10px;
+    border-left: 6px solid var(--bois-accent);
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 28px;
+  }
+
+  /* Titre de recette (Vert Forêt) */
+  .titre-recette {
+    color: var(--vert-foret);
+    border-bottom: 2px solid var(--bois-accent);
+    padding-bottom: 6px;
+    margin-top: 32px;
+    margin-bottom: 16px;
+    font-size: 1.4rem;
+  }
+
+  /* 1. VRAI ENCADRÉ : Métadonnées de la recette */
+  .info-recette {
+    display: flex;
+    gap: 20px;
+    background-color: var(--creme-encadre); /* Fond d'encadré distinct */
+    border: 1px solid var(--bois-accent);    /* Bordure UI */
+    border-left: 5px solid var(--vert-foret);
+    padding: 12px 18px;
+    border-radius: 6px;
+    color: var(--vert-foret);
+    font-size: 0.95rem;
+    margin-bottom: 20px;
+  }
+
+  .info-recette span {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .info-recette i {
+    color: var(--fuchsia-mat);
+  }
+
+  /* 2. VRAI ENCADRÉ : Carte de contenu de la recette (Ingrédients & Préparation) */
+  blockquote.recette-card {
+    background-color: var(--creme-encadre); /* Fond d'encadré distinct */
+    border: 1px solid var(--bois-accent);    /* Bordure d'UI */
+    border-left: 5px solid var(--fuchsia-mat);
+    border-radius: 8px;
+    padding: 20px 24px;
+    margin: 0 0 32px 0;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+  }
+
+  blockquote.recette-card strong {
+    color: var(--vert-foret);
+    display: block;
+    font-size: 1.1rem;
+    margin-top: 14px;
+    margin-bottom: 8px;
+  }
+
+  blockquote.recette-card strong:first-child {
+    margin-top: 0;
+  }
+
+  /* Ingrédients & étapes */
+  blockquote.recette-card ul, 
+  blockquote.recette-card ol {
+    margin-top: 6px;
+    margin-bottom: 16px;
+    padding-left: 22px;
+  }
+
+  blockquote.recette-card li {
+    margin-bottom: 8px;
+  }
+
+  /* Puces et numéros colorés */
+  blockquote.recette-card ul li::marker {
+    color: var(--fuchsia-mat);
+  }
+
+  blockquote.recette-card ol li::marker {
+    color: var(--bois-accent);
+    font-weight: bold;
+  }
+
+  /* Séparateur UI */
+  hr.separateur {
+    border: 0;
+    height: 1px;
+    background: var(--bois-accent);
+    margin: 40px 0;
+    opacity: 0.4;
+  }
+</style>
+
+<div class="page-container">
+
+  <div class="categorie-header">
+    <i class="fa-solid fa-campground"></i> Camping
+  </div>
+
+  <h2 class="titre-recette">Festin d'Action de grâce de randonnée</h2>
+
+  <!-- Encadré #1 : Métadonnées -->
+  <div class="info-recette">
+    <span><i class="fa-solid fa-clock"></i> <b>Prep :</b> 5 min</span>
+    <span><i class="fa-solid fa-fire"></i> <b>Cuisson :</b> 10 min</span>
+    <span><i class="fa-solid fa-utensils"></i> <b>Portions :</b> 2</span>
+  </div>
+
+  <!-- Encadré #2 : Contenu de la recette -->
+  <blockquote class="recette-card">
+    <strong><i class="fa-solid fa-basket-shopping"></i> Ingrédients :</strong>
+    <ul>
+      <li>½ tasse pommes de terre instantanées</li>
+      <li>1 cuillère à soupe lait en poudre</li>
+      <li>1 tasse farce séchée</li>
+      <li>2 cuillères à soupe canneberges séchées</li>
+      <li>1 oz sachet mélange à sauce pour dinde</li>
+      <li>7 oz sachet poulet pré-cuit</li>
+    </ul>
+
+    <strong><i class="fa-solid fa-kitchen-set"></i> Préparation :</strong>
+    <ol>
+      <li><b>À la maison :</b> Dans un sac hermétique, mesurer les pommes de terre instantanées et le lait en poudre. Dans un deuxième sac, mesurer la farce séchée et les canneberges.</li>
+      <li><b>Au campement :</b> Porter 2 tasses d'eau à ébullition. Dans un premier bol, mélanger les pommes de terre avec 1 tasse d'eau bouillante. Dans un deuxième bol, mélanger la farce avec ½ tasse d'eau bouillante. Remuer et laisser réhydrater quelques minutes.</li>
+      <li>Pendant ce temps, ajouter le sachet de sauce au reste d'eau (½ tasse) et remuer jusqu'à consistance homogène. Ajouter le poulet et cuire à feu doux jusqu'à ce qu'il soit bien chaud.</li>
+      <li>Répartir la nourriture dans les deux bols en versant le poulet et la sauce par-dessus. Déguster!</li>
+    </ol>
+  </blockquote>
+
+  <hr class="separateur">
+
+  <h2 class="titre-recette">Couscous Ras-el-Hanout, Légumes et Fruits Secs</h2>
+
+  <!-- Encadré #1 : Métadonnées -->
+  <div class="info-recette">
+    <span><i class="fa-solid fa-clock"></i> <b>Prep :</b> 5 min</span>
+    <span><i class="fa-solid fa-fire"></i> <b>Cuisson :</b> 5 min</span>
+    <span><i class="fa-solid fa-utensils"></i> <b>Portions :</b> 2</span>
+  </div>
+
+  <!-- Encadré #2 : Contenu de la recette -->
+  <blockquote class="recette-card">
+    <strong><i class="fa-solid fa-basket-shopping"></i> Ingrédients :</strong>
+    <ul>
+      <li>1 tasse couscous moyen</li>
+      <li>1/4 tasse légumes déshydratés (carottes, poivrons, ...)</li>
+      <li>2 c. à soupe raisins secs</li>
+      <li>2 c. à soupe canneberges séchées</li>
+      <li>2 c. à soupe amandes effilées ou graines de tournesol</li>
+      <li>2 c. à thé ras-el-hanout</li>
+      <li>1/2 c. à thé cumin moulu</li>
+      <li>1/2 c. à thé ail en poudre</li>
+      <li>2 c. à thé bouillon de légumes en poudre</li>
+      <li>1 pincée sel et poivre</li>
+      <li>2 c. à soupe huile d'olive (à ajouter sur place)</li>
+      <li>1 1/2 tasse eau bouillante</li>
+    </ul>
+
+    <strong><i class="fa-solid fa-kitchen-set"></i> Préparation :</strong>
+    <ol>
+      <li><b>À la maison :</b> Mélanger tous les ingrédients secs dans un sac hermétique.</li>
+      <li><b>Au campement :</b> Verser l'eau bouillante et l'huile d'olive directement sur le mélange sec.</li>
+      <li>Mélanger rapidement, couvrir hermétiquement et laisser reposer 5 à 8 minutes pour bien réhydrater les légumes.</li>
+      <li>Égrainer à la fourchette et servir.</li>
+    </ol>
+  </blockquote>
+
+</div>
