@@ -3,13 +3,13 @@
   "name": "Livre de recettes HériLoup",
   "icons": [
     {
-      "src": "assets/images/apple-touch-icon.png",
+      "src": "assets/images/logo.png",
       "type": "image/png",
       "sizes": "180x180",
       "purpose": "any maskable"
     },
     {
-      "src": "assets/images/android-chrome-512x512.png",
+      "src": "assets/images/logo.png",
       "type": "image/png",
       "sizes": "512x512",
       "purpose": "any"
