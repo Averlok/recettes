@@ -132,6 +132,7 @@
       border-radius: 6px;
       font-size: 0.9rem;
       transition: background 0.2s;
+      cursor: pointer;
     }
 
     .nav-list-item.active > .nav-list-link,
@@ -140,7 +141,7 @@
       color: #ffffff !important;
     }
 
-    /* Contenu principal de la recette */
+    /* Contenu principal */
     .main-content {
       flex: 1;
       padding: 40px;
@@ -157,6 +158,47 @@
       background: #ffffff;
     }
 
+    /* Style Page d'Accueil */
+    .home-header-title {
+      color: var(--herissonne-fuchsia);
+      font-size: 2.2rem;
+      text-align: center;
+      margin-top: 10px;
+      margin-bottom: 24px;
+      font-weight: 800;
+    }
+
+    .logo-container {
+      text-align: center;
+      margin: 30px 0;
+    }
+
+    .logo-container img {
+      width: 280px;
+      height: 280px;
+      border-radius: 50%;
+      object-fit: cover;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+    }
+
+    .welcome-card {
+      background: #ffffff;
+      border-left: 5px solid var(--bois-accent);
+      padding: 20px 24px;
+      border-radius: 0 8px 8px 0;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+      margin-top: 30px;
+      line-height: 1.6;
+    }
+
+    .welcome-card p {
+      margin: 0 0 12px 0;
+    }
+    .welcome-card p:last-child {
+      margin-bottom: 0;
+    }
+
+    /* Style Page de Recette (Camping) */
     .categorie-header {
       background-color: var(--herissonne-fuchsia) !important;
       color: #ffffff !important;
@@ -239,6 +281,10 @@
       color: var(--herissonne-fuchsia) !important;
       font-weight: bold;
     }
+
+    .hidden {
+      display: none !important;
+    }
   </style>
 </head>
 <body>
@@ -269,7 +315,7 @@
           <label for="p-herissonne-fuchsia">Fuchsia Hérissonne</label>
           <input type="color" id="p-herissonne-fuchsia" value="#6B2A3E" onchange="updateColor('--herissonne-fuchsia', this.value)">
         </div>
-        <p class="color-description">Fond de l'en-tête de catégorie (Camping), élément actif/survol de la navigation, bordure d'accentuation des métadonnées, liens de la table des matières et chiffres d'étapes (&lt;ol&gt;).</p>
+        <p class="color-description">Titre de la page d'accueil, fond de l'en-tête de catégorie (Camping), élément actif/survol de la navigation, bordure d'accentuation des métadonnées et chiffres d'étapes (&lt;ol&gt;).</p>
       </div>
 
       <div class="color-card">
@@ -285,7 +331,7 @@
           <label for="p-bois">Bois Accent</label>
           <input type="color" id="p-bois" value="#A2683B" onchange="updateColor('--bois-accent', this.value)">
         </div>
-        <p class="color-description">Bordure latérale d'accent sur la carte de catégorie principale pour faire le rappel du badge gravé en bois.</p>
+        <p class="color-description">Bordure latérale d'accent sur la carte de catégorie principale et le mot de bienvenue pour faire le rappel du badge gravé en bois.</p>
       </div>
 
       <div class="color-card">
@@ -302,10 +348,10 @@
       <div class="side-bar">
         <div class="site-title">Livre de recettes HériLoup</div>
         <ul class="nav-list">
-          <li class="nav-list-item"><a href="#" class="nav-list-link"><i class="fa-solid fa-house"></i> Accueil</a></li>
-          <li class="nav-list-item"><a href="#" class="nav-list-link"><i class="fa-solid fa-bread-slice"></i> Pains et Pizzas</a></li>
-          <li class="nav-list-item"><a href="#" class="nav-list-link"><i class="fa-solid fa-cookie-bite"></i> Desserts</a></li>
-          <li class="nav-list-item active"><a href="#" class="nav-list-link"><i class="fa-solid fa-campground"></i> Camping</a></li>
+          <li class="nav-list-item active" id="nav-home"><a onclick="showPage('home')" class="nav-list-link"><i class="fa-solid fa-house"></i> Accueil</a></li>
+          <li class="nav-list-item"><a class="nav-list-link"><i class="fa-solid fa-bread-slice"></i> Pains et Pizzas</a></li>
+          <li class="nav-list-item"><a class="nav-list-link"><i class="fa-solid fa-cookie-bite"></i> Desserts</a></li>
+          <li class="nav-list-item" id="nav-camping"><a onclick="showPage('camping')" class="nav-list-link"><i class="fa-solid fa-campground"></i> Camping</a></li>
         </ul>
       </div>
 
@@ -314,39 +360,58 @@
           <i class="fa-solid fa-magnifying-glass"></i> Search Livre de recettes HériLoup
         </div>
 
-        <div class="categorie-header">
-          <i class="fa-solid fa-campground"></i> Camping
+        <!-- VUE ACCUEIL -->
+        <div id="page-home">
+          <h1 class="home-header-title">Le livre de recettes HériLoup</h1>
+
+          <div class="logo-container">
+            <!-- Nouveau logo sans texte sur fond blanc -->
+            <img src="https://lh3.googleusercontent.com/d/1G71M_IvhXGUpvEptf379iGkR0fG3cTz4" alt="Logo HériLoup" onerror="this.src='https://via.placeholder.com/280?text=Logo+HériLoup'">
+          </div>
+
+          <div class="welcome-card">
+            <p><b>Bienvenue dans notre carnet culinaire.</b> Ce livre rassemble nos meilleures trouvailles, des recettes glanées ici et là au fil du temps, testées et adaptées dans notre cuisine. Un précieux ramassis de bons plats réconfortants et de gourmandises à partager.</p>
+            <p>Bonne consultation et bonne cuisine !</p>
+          </div>
         </div>
 
-        <div class="toc">
-          <ul>
-            <li><a href="#festin">Festin d'Action de grâce de randonnée</a></li>
-            <li><a href="#couscous">Couscous Ras-el-Hanout, Légumes et Fruits Secs</a></li>
-          </ul>
+        <!-- VUE CAMPING -->
+        <div id="page-camping" class="hidden">
+          <div class="categorie-header">
+            <i class="fa-solid fa-campground"></i> Camping
+          </div>
+
+          <div class="toc">
+            <ul>
+              <li><a href="#festin">Festin d'Action de grâce de randonnée</a></li>
+              <li><a href="#couscous">Couscous Ras-el-Hanout, Légumes et Fruits Secs</a></li>
+            </ul>
+          </div>
+
+          <h2 id="festin">Festin d'Action de grâce de randonnée</h2>
+          <div class="info-recette">
+            <span><i class="fa-solid fa-clock"></i> <b>Prep :</b> 5 min</span>
+            <span><i class="fa-solid fa-fire"></i> <b>Cuisson :</b> 10 min</span>
+            <span><i class="fa-solid fa-utensils"></i> <b>Portions :</b> 2</span>
+          </div>
+
+          <blockquote class="recipe-body">
+            <strong>Ingrédients :</strong>
+            <ul>
+              <li>½ tasse pommes de terre instantanées</li>
+              <li>1 cuillère à soupe lait en poudre</li>
+              <li>1 tasse farce séchée</li>
+              <li>2 cuillères à soupe canneberges séchées</li>
+            </ul>
+
+            <strong>Préparation :</strong>
+            <ol>
+              <li>À la maison : Dans un sac hermétique, mesurer les pommes de terre instantanées et le lait en poudre.</li>
+              <li>Au campement : Porter 2 tasses d'eau à ébullition. Réhydrater et servir chaud.</li>
+            </ol>
+          </blockquote>
         </div>
 
-        <h2 id="festin">Festin d'Action de grâce de randonnée</h2>
-        <div class="info-recette">
-          <span><i class="fa-solid fa-clock"></i> <b>Prep :</b> 5 min</span>
-          <span><i class="fa-solid fa-fire"></i> <b>Cuisson :</b> 10 min</span>
-          <span><i class="fa-solid fa-utensils"></i> <b>Portions :</b> 2</span>
-        </div>
-
-        <blockquote class="recipe-body">
-          <strong>Ingrédients :</strong>
-          <ul>
-            <li>½ tasse pommes de terre instantanées</li>
-            <li>1 cuillère à soupe lait en poudre</li>
-            <li>1 tasse farce séchée</li>
-            <li>2 cuillères à soupe canneberges séchées</li>
-          </ul>
-
-          <strong>Préparation :</strong>
-          <ol>
-            <li>À la maison : Dans un sac hermétique, mesurer les pommes de terre instantanées et le lait en poudre.</li>
-            <li>Au campement : Porter 2 tasses d'eau à ébullition. Réhydrater et servir chaud.</li>
-          </ol>
-        </blockquote>
       </div>
     </div>
   </div>
@@ -354,6 +419,21 @@
   <script>
     function updateColor(variableName, colorValue) {
       document.documentElement.style.setProperty(variableName, colorValue);
+    }
+
+    function showPage(pageName) {
+      document.getElementById('page-home').classList.add('hidden');
+      document.getElementById('page-camping').classList.add('hidden');
+      document.getElementById('nav-home').classList.remove('active');
+      document.getElementById('nav-camping').classList.remove('active');
+
+      if (pageName === 'home') {
+        document.getElementById('page-home').classList.remove('hidden');
+        document.getElementById('nav-home').classList.add('active');
+      } else if (pageName === 'camping') {
+        document.getElementById('page-camping').classList.remove('hidden');
+        document.getElementById('nav-camping').classList.add('active');
+      }
     }
   </script>
 </body>
