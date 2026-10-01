@@ -10,7 +10,7 @@ nav_order: 1
 ![Le loup et la hérissonne en cuisine](assets/images/background-removed.png)
 -->
 
-<img src="{{ 'assets/images/background-removed.png' | relative_url }}" alt="Le loup et la hérissonne en cuisine" style="max-width: 250px; width: 100%; height: auto; display: block; margin: 15px auto;">
+<img src="{{ 'assets/images/logo.png' | relative_url }}" alt="Le loup et la hérissonne en cuisine" style="max-width: 250px; width: 100%; height: auto; display: block; margin: 15px auto;">
 
 
 
