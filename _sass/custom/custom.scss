@@ -33,14 +33,27 @@ body {
 
 /* Éléments du menu de navigation */
 .nav-list .nav-list-item {
-  .nav-list-link {
+  .nav-list-link,
+  a {
     color: #ffffff !important;
 
     &:hover,
-    &.active {
+    &.active,
+    &:focus {
       background-color: $herissonne-fuchsia !important;
+      background-image: none !important; /* <--- Supprime le dégradé natif de Just the Docs */
       color: #ffffff !important;
+      box-shadow: none !important;
     }
+  }
+
+  /* Si Just the Docs applique la classe active sur le li parent */
+  &.active > .nav-list-link,
+  &.active > a {
+    background-color: $herissonne-fuchsia !important;
+    background-image: none !important; /* <--- Supprime le dégradé natif */
+    color: #ffffff !important;
+    box-shadow: none !important;
   }
 }
 
