@@ -3,13 +3,13 @@
   "name": "Livre de recettes HériLoup",
   "icons": [
     {
-      "src": "assets/images/logo.png",
+      "src": "assets/images/logo2.png",
       "type": "image/png",
       "sizes": "180x180",
       "purpose": "any maskable"
     },
     {
-      "src": "assets/images/logo.png",
+      "src": "assets/images/logo2.png",
       "type": "image/png",
       "sizes": "512x512",
       "purpose": "any"
@@ -17,7 +17,7 @@
   ],
   "start_url": "./",
   "background_color": "#ffffff",
-  "theme_color": "#422956",
+  "theme_color": "#375846",
   "display": "standalone",
   "scope": "./"
 }
