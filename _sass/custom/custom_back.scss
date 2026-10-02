@@ -1,0 +1,112 @@
+// 1. Variables globales de Just the Docs
+$link-color: #422956;
+$btn-primary-color: #422956;
+$nav-child-link-color: #422956;
+
+// 2. Écrasement direct pour le menu, la TOC et TOUS les liens dans le contenu
+.nav-list .nav-list-link,
+.site-nav a,
+.main-content a,
+.main-content ul li a {
+  color: #422956 !important;
+
+  &:hover,
+  &:focus {
+    color: #C39A6B !important;
+  }
+}
+
+
+
+/* Titre d'accueil : couleur + centrage Flexbox forcé */
+h1.titre-accueil {
+  color: #422956 !important;
+  text-align: center !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  width: 100% !important;
+  font-weight: bold !important;
+}
+
+
+/* Si tu veux aussi forcer l'icône à l'intérieur */
+.main-content h1 i, 
+.main-content h1.titre-accueil i {
+  text-align: center !important;
+  color: #422956 !important;
+}
+
+
+
+/* Encadré de catégorie / titre principal */
+.categorie-header {
+  background: rgba(66, 41, 86, 0.05);
+  border: 1px solid #422956;
+  border-radius: 10px;
+  padding: 0px 20px;
+  margin-bottom: 25px;
+  color: #422956;
+  text-align: center;
+  font-size: 1.8em;
+  font-weight: bold;
+
+  /* Alignement et couleur des icônes Font Awesome à l'intérieur */
+  i.fa-solid {
+    margin-right: 10px;
+    color: #422956;
+  }
+}
+
+
+// --- Styles Personnalisés HériLoup ---
+
+// 1. Force la couleur et l'espacement sur TOUTES les icônes Font Awesome
+// On utilise 'i' pour cibler la balise elle-même, et !important pour forcer.
+i.fa-solid, i.fa-regular, .fa-solid, .fa-regular {
+    color: #422956 !important;
+    margin-right: 8px !important;
+}
+
+// 3. Ciblage spécifique pour le menu de gauche (si jamais il reste récalcitrant)
+.nav-list-link i, .nav-list-item a i {
+    color: #422956 !important;
+    margin-right: 8px !important;
+}
+
+/* Sous-titre sous les encadrés de catégories */
+.sous-titre {
+  color: #7D7289;
+  font-size: 1.05em;
+  font-style: italic;
+  text-align: center;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+
+
+/* Masquer les icônes de lien d'ancrage sur tous les titres */
+.anchor-heading {
+  display: none !important;
+}
+
+
+/* Métriques rapides pour les recettes */
+.info-recette {
+  background: rgba(66, 41, 86, 0.05);
+  border-left: 3px solid #422956;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 0.8em;
+  color: #422956;
+  margin-bottom: 15px;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+
+  span {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+  }
+}

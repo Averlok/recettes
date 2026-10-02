@@ -1,82 +1,118 @@
+// ==========================================
+// PALETTE DE COULEURS HÉRILOUP
+// ==========================================
+$loup-vert: #375846;
+$loup-vert-sauge: #84A381;
+$herissonne-fuchsia: #643A47;
+$herissonne-fuchsia-doux: #9E4A63;
+$herissonne-rose-fond: #F4EBF0;
+$bois-accent: #A2683B;
+$creme-fond: #FDFBF7;
+$texte-noir: #2B2D2F;
+
 // 1. Variables globales de Just the Docs
-$link-color: #422956;
-$btn-primary-color: #422956;
-$nav-child-link-color: #422956;
+$link-color: $herissonne-fuchsia;
+$btn-primary-color: $herissonne-fuchsia;
+$nav-child-link-color: #ffffff;
 
-// 2. Écrasement direct pour le menu, la TOC et TOUS les liens dans le contenu
-.nav-list .nav-list-link,
-.site-nav a,
-.main-content a,
-.main-content ul li a {
-  color: #422956 !important;
+// 2. Fond de page général
+body {
+  background-color: $creme-fond !important;
+  color: $texte-noir;
+}
 
-  &:hover,
-  &:focus {
-    color: #C39A6B !important;
+// 3. Barre de navigation latérale (Sidebar)
+.side-bar {
+  background-color: $loup-vert !important;
+
+  .site-title {
+    color: #ffffff !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
   }
 }
 
+/* Éléments du menu de navigation */
+.nav-list .nav-list-item {
+  .nav-list-link {
+    color: #ffffff !important;
 
+    &:hover,
+    &.active {
+      background-color: $herissonne-fuchsia !important;
+      color: #ffffff !important;
+    }
+  }
+}
 
-/* Titre d'accueil : couleur + centrage Flexbox forcé */
-h1.titre-accueil {
-  color: #422956 !important;
+// Force la couleur blanche sur les icônes du menu latéral
+.side-bar i.fa-solid, 
+.side-bar i.fa-regular, 
+.nav-list-link i {
+  color: #ffffff !important;
+  margin-right: 8px !important;
+}
+
+// 4. Liens dans le contenu principal et la Table des Matières (TOC)
+.main-content a,
+.main-content ul li a,
+.toc li a {
+  color: $herissonne-fuchsia !important;
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    color: $loup-vert !important;
+    text-decoration: underline;
+  }
+}
+
+// 5. Titre principal d'accueil (H1)
+h1.titre-accueil,
+.home-header-title {
+  color: $herissonne-fuchsia !important;
   text-align: center !important;
   display: flex !important;
   justify-content: center !important;
   align-items: center !important;
   width: 100% !important;
-  font-weight: bold !important;
-}
+  font-weight: 800 !important;
 
-
-/* Si tu veux aussi forcer l'icône à l'intérieur */
-.main-content h1 i, 
-.main-content h1.titre-accueil i {
-  text-align: center !important;
-  color: #422956 !important;
-}
-
-
-
-/* Encadré de catégorie / titre principal */
-.categorie-header {
-  background: rgba(66, 41, 86, 0.05);
-  border: 1px solid #422956;
-  border-radius: 10px;
-  padding: 0px 20px;
-  margin-bottom: 25px;
-  color: #422956;
-  text-align: center;
-  font-size: 1.8em;
-  font-weight: bold;
-
-  /* Alignement et couleur des icônes Font Awesome à l'intérieur */
-  i.fa-solid {
-    margin-right: 10px;
-    color: #422956;
+  i {
+    color: $herissonne-fuchsia !important;
   }
 }
 
-
-// --- Styles Personnalisés HériLoup ---
-
-// 1. Force la couleur et l'espacement sur TOUTES les icônes Font Awesome
-// On utilise 'i' pour cibler la balise elle-même, et !important pour forcer.
-i.fa-solid, i.fa-regular, .fa-solid, .fa-regular {
-    color: #422956 !important;
-    margin-right: 8px !important;
+// 6. Titres de sections (H2)
+.main-content h2 {
+  color: $loup-vert !important;
+  border-bottom: 2px solid $loup-vert-sauge !important;
+  padding-bottom: 6px;
+  margin-top: 36px;
+  font-size: 1.4rem;
 }
 
-// 3. Ciblage spécifique pour le menu de gauche (si jamais il reste récalcitrant)
-.nav-list-link i, .nav-list-item a i {
-    color: #422956 !important;
-    margin-right: 8px !important;
+// 7. Encadré de catégorie (ex: Camping, Plats principaux)
+.categorie-header {
+  background-color: $herissonne-fuchsia !important;
+  color: #ffffff !important;
+  border-radius: 12px;
+  border-left: 6px solid $bois-accent !important;
+  padding: 18px 24px;
+  margin-bottom: 25px;
+  text-align: center;
+  font-size: 1.8em;
+  font-weight: bold;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+
+  i.fa-solid, i.fa-regular {
+    margin-right: 10px !important;
+    color: #ffffff !important;
+  }
 }
 
 /* Sous-titre sous les encadrés de catégories */
 .sous-titre {
-  color: #7D7289;
+  color: $loup-vert-sauge;
   font-size: 1.05em;
   font-style: italic;
   text-align: center;
@@ -84,29 +120,71 @@ i.fa-solid, i.fa-regular, .fa-solid, .fa-regular {
   margin-bottom: 20px;
 }
 
-
-/* Masquer les icônes de lien d'ancrage sur tous les titres */
-.anchor-heading {
-  display: none !important;
-}
-
-
-/* Métriques rapides pour les recettes */
+// 8. Métriques rapides pour les recettes (.info-recette)
 .info-recette {
-  background: rgba(66, 41, 86, 0.05);
-  border-left: 3px solid #422956;
-  padding: 6px 12px;
-  border-radius: 4px;
-  font-size: 0.8em;
-  color: #422956;
-  margin-bottom: 15px;
-  display: flex;
-  gap: 15px;
+  background-color: $herissonne-rose-fond !important;
+  border-left: 4px solid $herissonne-fuchsia !important;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-size: 0.9em;
+  color: $loup-vert !important;
+  margin-bottom: 20px;
+  display: inline-flex;
+  gap: 16px;
   flex-wrap: wrap;
 
   span {
     display: flex;
     align-items: center;
-    gap: 3px;
+    gap: 4px;
   }
+
+  i.fa-solid, i.fa-regular {
+    color: $herissonne-fuchsia !important;
+    margin-right: 4px !important;
+  }
+}
+
+// 9. Mise en forme des corps de recette & listes
+blockquote.recipe-body,
+.main-content blockquote {
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 20px 24px;
+  margin: 0 0 30px 0;
+
+  strong {
+    color: $loup-vert;
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 8px;
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+
+  /* Puces des ingrédients */
+  ul li::marker {
+    color: $loup-vert-sauge !important;
+  }
+
+  /* Chiffres des étapes */
+  ol li::marker {
+    color: $herissonne-fuchsia !important;
+    font-weight: bold;
+  }
+}
+
+// 10. Icônes globales Font Awesome dans le contenu principal
+.main-content i.fa-solid, 
+.main-content i.fa-regular {
+  color: $loup-vert !important;
+  margin-right: 8px !important;
+}
+
+// 11. Masquer les icônes de lien d'ancrage sur tous les titres
+.anchor-heading {
+  display: none !important;
 }
