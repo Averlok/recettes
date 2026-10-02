@@ -264,3 +264,42 @@ blockquote ol {
     }
   }
 }
+
+
+// 12. Correctif pour le bouton de menu mobile (Haut à droite)
+.site-header {
+  /* Icône du menu hamburger et de la recherche en mobile */
+  .nav-trigger,
+  .site-button,
+  .site-nav-trigger,
+  button {
+    color: #ffffff !important;
+
+    /* Si l'icône utilise du SVG inline */
+    svg {
+      fill: #ffffff !important;
+      color: #ffffff !important;
+    }
+
+    &:hover,
+    &:focus {
+      color: $herissonne-rose-fond !important;
+
+      svg {
+        fill: $herissonne-rose-fond !important;
+        color: $herissonne-rose-fond !important;
+      }
+    }
+  }
+}
+
+/* Ciblage direct des boutons de toggle du thème Just the Docs */
+.main-header-button,
+.site-header-toggle,
+.aux-nav-list-item a {
+  color: #ffffff !important;
+
+  svg {
+    fill: #ffffff !important;
+  }
+}
