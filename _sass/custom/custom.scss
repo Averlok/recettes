@@ -91,7 +91,7 @@ h1.titre-accueil,
   font-size: 1.4rem;
 }
 
-// 7. Encadré de catégorie (ex: Camping, Plats principaux)
+// 7. Encadré de catégorie (ex: Camping, Plats principaux, Sauces...)
 .categorie-header {
   background-color: $herissonne-fuchsia !important;
   color: #ffffff !important;
@@ -102,9 +102,12 @@ h1.titre-accueil,
   text-align: center;
   font-size: 1.8em;
   font-weight: bold;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 
-  i.fa-solid, i.fa-regular {
+  /* Force les icônes à l'intérieur de l'en-tête en blanc */
+  i, 
+  i.fa-solid, 
+  i.fa-regular {
     margin-right: 10px !important;
     color: #ffffff !important;
   }
@@ -177,9 +180,9 @@ blockquote.recipe-body,
   }
 }
 
-// 10. Icônes globales Font Awesome dans le contenu principal
-.main-content i.fa-solid, 
-.main-content i.fa-regular {
+// 10. Icônes globales Font Awesome dans le contenu principal (exclut les en-têtes de catégorie)
+.main-content i.fa-solid:not(.categorie-header i), 
+.main-content i.fa-regular:not(.categorie-header i) {
   color: $loup-vert !important;
   margin-right: 8px !important;
 }
