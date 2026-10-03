@@ -303,3 +303,11 @@ blockquote ol {
     fill: #ffffff !important;
   }
 }
+
+
+/* Masquer la mention de crédit Just the Docs */
+.site-footer, 
+footer.site-footer,
+.nav-footer {
+  display: none !important;
+}
