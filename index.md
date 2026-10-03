@@ -4,7 +4,7 @@ layout: home
 nav_order: 1
 ---
 
-# Le livre de recettes HériLoup
+# Le Carnet Gourmand d'HériLoup
 {:.titre-accueil}
 <!--
 ![Le loup et la hérissonne en cuisine](assets/images/background-removed.png)
