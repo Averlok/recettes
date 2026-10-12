@@ -159,3 +159,33 @@ permalink: /soupes
 > 6. Laisser mijoter à feu doux pendant 3 à 5 minutes, jusqu'à ce que les pétoncles soient opalescents et cuits à cœur.
 > 7. Retirer la feuille de laurier et les branches de thym. Rectifier l'assaisonnement si nécessaire.
 > 8. Servir chaud dans des bols, garni des lardons croustillants et de ciboulette fraîche.
+
+---
+
+## Chaudrée de maïs et pétoncles poêlés
+
+<div class="info-recette">
+  <span><i class="fa-solid fa-clock"></i> <b> Prep :</b> 15 min</span>
+  <span><i class="fa-solid fa-fire"></i> <b> Cuisson :</b> 25 min</span>
+  <span><i class="fa-solid fa-utensils"></i> <b> Portions :</b> 4</span>
+</div>
+
+> **Ingrédients :**
+> * 400 g à 450 g de pétoncles
+> * 3 épis de maïs frais (ou 2 tasses de maïs en grains congelé)
+> * 3 à 4 pommes de terre moyennes coupées en petits dés
+> * 3 à 4 tranches de bacon coupées en morceaux
+> * 1 oignon haché
+> * 1 à 2 gousses d'ail
+> * 750 ml de bouillon de poulet ou de fumet de poisson
+> * 250 ml de crème (15 % ou 35 %)
+> * 30 g de beurre
+> * Sel, poivre, thym ou ciboulette au goût
+>
+> **Préparation :**
+> 1. Dans une grande casserole, faire revenir les morceaux de bacon à feu moyen jusqu'à ce qu'ils soient croustillants. Les retirer en gardant un peu de gras dans la casserole.
+> 2. Ajouter le beurre, l'oignon et les pommes de terre. Cuire 5 minutes, puis ajouter l'ail et le maïs.
+> 3. Verser le bouillon, saler et poivrer. Laisser mijoter à feu doux environ 15 minutes jusqu'à ce que les pommes de terre soient tendres.
+> 4. Incorporer la crème et laisser chauffer doucement.
+> 5. Dans une poêle bien chaude avec un peu de beurre ou d'huile, faire saisir les pétoncles à feu vif 1 à 2 minutes de chaque côté jusqu'à ce qu'ils soient bien dorés.
+> 6. Verser la chaudrée de maïs bien chaude dans les bols, déposer les pétoncles poêlés sur le dessus et garnir avec le bacon croustillant et des herbes fraîches.
