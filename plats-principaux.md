@@ -500,7 +500,7 @@ Source : [Jean-Piquant](https://jean-piquant.com/boulettes-de-chili/)
 > **Préparation :**
 > 1. Saisir la viande des deux côtés quelques minutes + sel et poivre.
 > 2. Ajouter le bouillon de bœuf, l'oignon tranché, les mélanges ranch et sauce au jus, les pepperoncini et leur jus.
-> 3. Cuire au four à 350-400°F, jusqu'à ce que la viande s'effiloche.
+> 3. Cuire au four à 350-400°F, jusqu'à ce que la viande s'effiloche. (environ 3h30)
 > 4. Effilocher et servir.
 
 
