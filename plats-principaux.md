@@ -478,6 +478,31 @@ permalink: /plats-principaux
 
 Source : [Jean-Piquant](https://jean-piquant.com/boulettes-de-chili/)
 
+---
+
+## Mississippi Pot Roast
+
+<div class="info-recette">
+  <span><i class="fa-solid fa-clock"></i> <b> Prep :</b>  15 min</span>
+  <span><i class="fa-solid fa-fire"></i> <b> Cuisson :</b>  180 min</span>
+  <span><i class="fa-solid fa-utensils"></i> <b> Portions :</b>  6</span>
+</div>
+
+> **Ingrédients :**
+> * 1 rôti de bœuf, assaisonné
+> * 1 carton bouillon de bœuf
+> * 1 oignon blanc tranché
+> * 1 sachet mélange ranch
+> * 1 sachet mélange à sauce au jus
+> * Plusieurs piments pepperoncini + un peu de leur jus
+> * Beurre
+>
+> **Préparation :**
+> 1. Saisir la viande des deux côtés quelques minutes + sel et poivre.
+> 2. Ajouter le bouillon de bœuf, l'oignon tranché, les mélanges ranch et sauce au jus, les pepperoncini et leur jus.
+> 3. Cuire au four à 350-400°F, jusqu'à ce que la viande s'effiloche.
+> 4. Effilocher et servir.
+
 
 
 
