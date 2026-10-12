@@ -419,5 +419,65 @@ permalink: /plats-principaux
 > 4. Verser la crème et incorporer le pesto. Laisser mijoter doucement pendant 2 à 3 minutes pour que la sauce réduise légèrement et enrobe le poulet.
 > 5. Ajouter les pâtes égouttées et le parmesan directement dans la poêle. Bien mélanger pour enrober le tout (ajouter un peu d'eau de cuisson réservée si la sauce est trop épaisse). Rectifier l'assaisonnement et servir aussitôt.
 
+---
+
+## Boulettes de Chili
+
+<div class="info-recette">
+  <span><i class="fa-solid fa-clock"></i> <b> Prep :</b>  75 min</span>
+  <span><i class="fa-solid fa-fire"></i> <b> Cuisson :</b>  15 min</span>
+  <span><i class="fa-solid fa-utensils"></i> <b> Portions :</b>  4</span>
+</div>
+
+> **Ingrédients :**
+> * **Boulettes :**
+> * 675 g bœuf haché maigre ou mi-maigre
+> * 1 ½ c. à soupe poudre de chili
+> * 1 ½ c. à thé cumin moulu
+> * 1 ½ c. à thé paprika
+> * 1 c. à thé origan séché
+> * 1 c. à thé cacao
+> * 1 ½ c. à thé sel
+> * ½ tasse haricots noirs, rincés et égouttés
+> * ½ tasse maïs en grains
+> * ½ oignon haché finement
+> * 2 gousses ail hachées ou râpées
+> * 1 jalapeno haché finement
+> * 100 g cheddar fort coupé en cubes
+> * **Sauce :**
+> * ½ oignon haché finement
+> * 2 gousses ail hachées ou râpées
+> * 1 c. à thé poudre de chili
+> * ½ c. à thé cumin moulu
+> * ½ c. à thé paprika
+> * ½ c. à thé origan séché
+> * ¼ c. à thé cacao
+> * 1 c. à thé sel
+> * ½ tasse bière style lager, blonde ou stout
+> * 2 c. à soupe pâte de tomate
+> * 2 tasses purée de tomates ou sauce tomate
+> * **Garnitures :**
+> * Coriandre hachée
+> * Jus de lime
+> * Crème sûre ou yogourt grec
+> * Sauce piquante au choix
+>
+> **Préparation :**
+> 1. Mélanger tous les ingrédients des boulettes, sauf le fromage, dans un cul-de-poule.
+> 2. Couvrir et laisser au frigo pendant environ 1 heure.
+> 3. Former des boulettes d’environ 1/4 de tasse et envelopper un cube de fromage dans chacune d’elles.
+> 4. Déposer les boulettes au air fryer et cuire à 350°F pendant environ 8 minutes.
+> 5. Pour la sauce, dans une casserole à feu moyen, faire revenir l’oignon dans un filet d’huile et ajouter l’ail.
+> 6. Continuer la cuisson 1 minute et ajouter les épices.
+> 7. Déglacer avec la bière et laisser réduire 2-3 minutes.
+> 8. Ajouter la pâte de tomates et la purée (ou la sauce).
+> 9. Bien mélanger et laisser mijoter quelques minutes.
+> 10. Remuer les boulettes avec quelques cuillères de sauce.
+> 11. Déposer le reste de la sauce dans un plat creux et déposer les boulettes.
+> 12. Ajouter les garnitures de votre choix.
+
+Source : [Jean-Piquant](https://jean-piquant.com/boulettes-de-chili/)
+
+
 
 
