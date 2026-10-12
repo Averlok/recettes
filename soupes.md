@@ -124,3 +124,38 @@ permalink: /soupes
 > 8. Incorporer la crème et le sirop d'érable, puis mélanger jusqu'à obtenir une texture lisse.
 > 9. Assaisonner avec du sel et du poivre selon le goût.
 > 10. Servir le potage et garnir de morceaux de bacon grillé et de parmesan râpé.
+
+---
+
+## Chaudrée de maïs et pétoncles
+
+<div class="info-recette">
+  <span><i class="fa-solid fa-clock"></i> <b> Prep :</b> 20 min</span>
+  <span><i class="fa-solid fa-fire"></i> <b> Cuisson :</b> 25 min</span>
+  <span><i class="fa-solid fa-utensils"></i> <b> Portions :</b> 4</span>
+</div>
+
+> **Ingrédients :**
+> * 400 g de pétoncles
+> * 3 tranches de bacon coupées en lardons
+> * 1 oignon jaune haché
+> * 2 branches de céleri en dés
+> * 2 gousses d'ail hachées
+> * 2 patates jaunes moyennes coupées en petits cubes
+> * 2 tasses de grains de maïs
+> * 3 tasses de bouillon de poisson ou de légumes
+> * 1 tasse de crème 15% à cuisson
+> * 2 branches de thym frais
+> * 1 feuille de laurier
+> * Sel et poivre du moulin au goût
+> * Ciboulette fraîche ciselée pour le service
+>
+> **Préparation :**
+> 1. Dans une grande casserole à feu moyen, faire cuire le bacon jusqu'à ce qu'il soit croustillant. Retirer les lardons et les réserver sur du papier absorbant en conservant le gras dans la casserole.
+> 2. Dans le gras de bacon, faire suer l'oignon, le céleri et l'ail pendant environ 4 à 5 minutes jusqu'à ce qu'ils soient tendres.
+> 3. Ajouter les cubes de patates, le maïs, le thym, la feuille de laurier et le bouillon. Porter à ébullition, puis réduire le feu et laisser mijoter doucement pendant 15 minutes, ou jusqu'à ce que les patates soient tendres.
+> 4. À l'aide d'un pilon à patates, écraser légèrement une partie des légumes directement dans la casserole pour donner de la texture et épaissir la chaudrée.
+> 5. Incorporer la crème et les pétoncles préalablement asséchés, salés et poivrés.
+> 6. Laisser mijoter à feu doux pendant 3 à 5 minutes, jusqu'à ce que les pétoncles soient opalescents et cuits à cœur.
+> 7. Retirer la feuille de laurier et les branches de thym. Rectifier l'assaisonnement si nécessaire.
+> 8. Servir chaud dans des bols, garni des lardons croustillants et de ciboulette fraîche.
