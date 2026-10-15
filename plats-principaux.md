@@ -503,6 +503,40 @@ Source : [Jean-Piquant](https://jean-piquant.com/boulettes-de-chili/)
 > 3. Cuire au four à 350-400°F, jusqu'à ce que la viande s'effiloche. (environ 3h30)
 > 4. Effilocher et servir.
 
+---
 
+## Masoor Dal (Dahl de lentilles rouges)
+
+<div class="info-recette">
+  <span><i class="fa-solid fa-clock"></i> <b> Prep :</b> 10 min</span>
+  <span><i class="fa-solid fa-fire"></i> <b> Cuisson :</b> 20 min</span>
+  <span><i class="fa-solid fa-utensils"></i> <b> Portions :</b> 4</span>
+</div>
+
+> **Ingrédients :**
+> 
+> * 200 g lentilles rouges, rincées
+> * 750 ml eau (ou bouillon de légumes)
+> * 15 ml huile de canola ou beurre clarifié (ghee)
+> * 1 oignon jaune, haché finement
+> * 3 gousses ail, hachées
+> * 1 c. à soupe gingembre frais, râpé
+> * 1 c. à thé cumin moulu
+> * 1 c. à thé curcuma moulu
+> * 1 c. à thé garam masala
+> * 1/2 c. à thé flocons de piment fort (optionnel)
+> * 400 ml lait de coco léger
+> * 398 ml dés de tomates en conserve
+> * 1 c. à thé sel
+> * Jus de 1/2 citron frais
+> * Coriandre fraîche hachée (pour le service)
+> 
+> **Préparation :**
+> 
+> 1. Dans une grande casserole, chauffer l'huile à feu moyen et faire revenir l'oignon environ 4 à 5 minutes jusqu'à ce qu'il soit tendre.
+> 2. Ajouter l'ail, le gingembre, le cumin, le curcuma, le garam masala et les flocons de piment, puis cuire 1 minute en remuant constamment pour faire ressortir les arômes.
+> 3. Verser les lentilles rouges rincées, l'eau, le lait de coco et les tomates en dés avec leur jus, puis bien mélanger.
+> 4. Porter à ébullition, réduire le feu à moyen-doux, couvrir partiellement et laisser mijoter environ 15 à 20 minutes en remuant de temps en temps, jusqu'à ce que les lentilles soient très tendres et la texture crémeuse.
+> 5. Retirer du feu, incorporer le sel et le jus de citron frais, puis garnir de coriandre fraîche avant de servir avec du riz basmati ou du pain naan.
 
 
