@@ -228,3 +228,29 @@ permalink: /biscuits-friandises
 > 4. Former les brioches : Divise la pâte en 8 boules et dépose-les sur une plaque. Avec un verre ou le dos d’une cuillère, creuse légèrement le centre sans percer. Garnis le centre avec la garniture de pommes.
 > 5. Cuisson : Badigeonne les côtés d’œuf battu, ajoute le crumble et cuis à 350 °F (175 °C) pendant 18–25 min, jusqu’à ce que ce soit bien doré.
 > 6. Glaçage : Mélange les ingrédients et ajuste avec du sucre à glacer. Verse sur les brioches refroidies.
+
+---
+
+## Dessert onctueux au café
+
+<div class="info-recette">
+  <span><i class="fa-solid fa-clock"></i> <b> Prep :</b> 10 min</span>
+  <span><i class="fa-solid fa-fire"></i> <b> Cuisson :</b> 10 min</span>
+  <span><i class="fa-solid fa-utensils"></i> <b> Portions :</b> 6</span>
+</div>
+
+> **Ingrédients :**
+> 
+>   * 800 ml de lait
+>   * 100 g de sucre
+>   * 100 g de fécule de maïs (Maizena)
+>   * 200 ml de café
+>   * Cacao en poudre (optionnel, pour la finition)
+> 
+> **Préparation :**
+> 
+> 1. Dans une casserole, mélanger la fécule de maïs avec le lait froid afin de bien la dissoudre et éviter les grumeaux.
+> 2. Ajouter le sucre et le café, puis bien fouetter l'ensemble.
+> 3. Chauffer à feu moyen en fouettant continuellement jusqu'à ce que le mélange épaississe et devienne bien crémeux.
+> 4. Verser la préparation chaude dans un moule (type moule à cake) et laisser refroidir complètement au réfrigérateur pour que le dessert fige.
+> 5. Démouler doucement sur une planche ou un plat de service, puis saupoudrer généreusement de cacao en poudre avant de trancher.
