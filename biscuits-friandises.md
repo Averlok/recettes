@@ -243,7 +243,7 @@ permalink: /biscuits-friandises
 > 
 >   * 800 ml de lait
 >   * 100 g de sucre
->   * 100 g de fécule de maïs (Maizena)
+>   * 100 g de fécule de maïs
 >   * 200 ml de café
 >   * Cacao en poudre (optionnel, pour la finition)
 > 
