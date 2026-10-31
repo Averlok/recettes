@@ -153,6 +153,54 @@ document.addEventListener("DOMContentLoaded", function() {
 > * **Règle de cuisson** : 100 g de pâtes sèches absorbent l'eau et donnent environ **225 g à 250 g de pâtes cuites**.
 > * **Pâtes longues (Spaghetti, Linguine)** : 100 g correspondent à un faisceau d'environ **2.5 cm (1 pouce)** de diamètre (la taille d'une pièce de 1$ CAD).
 
+---
+
+## <i class="fa-solid fa-drumstick-bite"></i> Températures de cuisson des viandes
+
+Pour une cuisson parfaite et sécuritaire, mesure la température au cœur de la pièce (partie la plus épaisse, sans toucher d'os). Retire la viande du feu à **2 à 3 °C sous la cible** : la cuisson se poursuit au repos.
+
+### Bœuf, Veau & Agneau
+
+| Cuisson | Température interne | Description & Aspect |
+| :--- | :---: | :--- |
+| **Bleu** | **48 °C à 50 °C** | Cœur très rouge, chaud mais à peine saisi |
+| **Saignant** | **52 °C à 54 °C** | Cœur rouge vif, très tendre et juteux |
+| **Médium-saignant** *(À point)* | **55 °C à 57 °C** | Cœur rose chaud *(recommandé)* |
+| **Médium** | **60 °C à 63 °C** | Cœur rose pâle, viande plus ferme |
+| **Bien cuit** | **68 °C et plus** | Entièrement brun, peu de jus |
+
+### Porc
+
+* **Filet & Longe (Rosé)** : **63 °C** *(Laisser reposer 3 min)*
+* **Porc haché** : **71 °C**
+* **Épaule / Effiloché (Pulled Pork)** : **93 °C à 95 °C** *(Pour fondre le collagène)*
+
+### Volaille (Poulet & Dindon)
+
+* **Poitrine & Suprême** : **74 °C** *(Retirer à 72 °C et laisser monter au repos)*
+* **Cuisses & Pilons** : **74 °C à 82 °C** *(Plus tendre autour de 80 °C)*
+* **Volaille hachée** : **74 °C**
+
+### Viandes hachées, Saucisses & Poissons
+
+* **Bœuf / Porc / Agneau haché** : **71 °C**
+* **Saucisses fraîches** : **71 °C**
+* **Saumon & Thon** : **50 °C à 52 °C** *(Mi-cuit / Nacre au centre)*
+* **Poissons blancs** : **60 °C** *(La chair se détache à la fourchette)*
+
+---
+
+## <i class="fa-solid fa-hourglass-half"></i> Temps de repos des viandes
+
+Le repos permet aux fibres de se détendre et aux jus de se redistribuer de manière homogène.
+
+| Pièce de viande | Temps de repos | Technique & Consignes |
+| :--- | :---: | :--- |
+| **Petites coupes** *(Steaks, poitrines, côtelettes)* | **5 minutes** | Sur une grille ou assiette chaude, recouvrir lâchement d'aluminium. |
+| **Rótis moyens** *(Rôti de bœuf, longe, gigot)* | **10 à 15 minutes** | Couvrir d'aluminium. La température grimpera de 2 à 4 °C. |
+| **Volaille entière & Gros rôtis** | **20 à 30 minutes** | Repos sur grille pour conserver le croustillant de la peau. |
+| **BBQ / Effiloché** *(Brisket, épaule de porc)* | **45 min à 2 h** | Envelopper dans un papier de boucherie et placer en glacière vide. |
+
 
 ---
 
@@ -162,6 +210,8 @@ document.addEventListener("DOMContentLoaded", function() {
 * **350 °F (180 °C)** : La température standard (Gâteaux, biscuits, gratins)
 * **400 °F (200 °C)** : Rôtissage des légumes et viandes
 * **450 °F (230 °C)** : Pizzas et pains maison
+
+
 
 ---
 
