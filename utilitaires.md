@@ -171,22 +171,28 @@ Pour une cuisson parfaite et sécuritaire, mesure la température au cœur de la
 
 ### Porc
 
-* **Filet & Longe (Rosé)** : **63 °C** *(Laisser reposer 3 min)*
-* **Porc haché** : **71 °C**
-* **Épaule / Effiloché (Pulled Pork)** : **93 °C à 95 °C** *(Pour fondre le collagène)*
+| Coupe / Type | Température interne | Remarques |
+| :--- | :---: | :--- |
+| **Filet & Longe (Rosé)** | **63 °C** | Laisser reposer 3 min |
+| **Porc haché** | **71 °C** | Cuisson complète |
+| **Épaule / Effiloché (Pulled Pork)** | **93 °C à 95 °C** | Pour fondre le collagène |
 
 ### Volaille (Poulet & Dindon)
 
-* **Poitrine & Suprême** : **74 °C** *(Retirer à 72 °C et laisser monter au repos)*
-* **Cuisses & Pilons** : **74 °C à 82 °C** *(Plus tendre autour de 80 °C)*
-* **Volaille hachée** : **74 °C**
+| Coupe / Type | Température interne | Remarques |
+| :--- | :---: | :--- |
+| **Poitrine & Suprême** | **74 °C** | Retirer à 72 °C et laisser monter au repos |
+| **Cuisses & Pilons** | **74 °C à 82 °C** | Plus tendre autour de 80 °C |
+| **Volaille hachée** | **74 °C** | Cuisson complète obligatoire |
 
 ### Viandes hachées, Saucisses & Poissons
 
-* **Bœuf / Porc / Agneau haché** : **71 °C**
-* **Saucisses fraîches** : **71 °C**
-* **Saumon & Thon** : **50 °C à 52 °C** *(Mi-cuit / Nacre au centre)*
-* **Poissons blancs** : **60 °C** *(La chair se détache à la fourchette)*
+| Type | Température interne | Remarques |
+| :--- | :---: | :--- |
+| **Bœuf / Porc / Agneau haché** | **71 °C** | Sécurité sanitaire minimale |
+| **Saucisses fraîches** | **71 °C** | Cuire à feu moyen-doux |
+| **Saumon & Thon** | **50 °C à 52 °C** | Mi-cuit / Nacre au centre |
+| **Poissons blancs** | **60 °C** | La chair se détache à la fourchette |
 
 ---
 
@@ -197,10 +203,9 @@ Le repos permet aux fibres de se détendre et aux jus de se redistribuer de mani
 | Pièce de viande | Temps de repos | Technique & Consignes |
 | :--- | :---: | :--- |
 | **Petites coupes** *(Steaks, poitrines, côtelettes)* | **5 minutes** | Sur une grille ou assiette chaude, recouvrir lâchement d'aluminium. |
-| **Rótis moyens** *(Rôti de bœuf, longe, gigot)* | **10 à 15 minutes** | Couvrir d'aluminium. La température grimpera de 2 à 4 °C. |
+| **Rôtis moyens** *(Rôti de bœuf, longe, gigot)* | **10 à 15 minutes** | Couvrir d'aluminium. La température grimpera de 2 à 4 °C. |
 | **Volaille entière & Gros rôtis** | **20 à 30 minutes** | Repos sur grille pour conserver le croustillant de la peau. |
 | **BBQ / Effiloché** *(Brisket, épaule de porc)* | **45 min à 2 h** | Envelopper dans un papier de boucherie et placer en glacière vide. |
-
 
 ---
 
