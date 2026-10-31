@@ -138,61 +138,44 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ---
 
-## <i class="fa-solid fa-utensils"></i> Équivalences poids ➔ tasses par type de pâte (Sèches)
-
-| Type de pâte | 200 g | 250 g | 300 g | 350 g |
-| :--- | :--- | :--- | :--- | :--- |
-| **Orzo / Risoni** *(Très dense)* | 1 tasse + 1/8 | 1 tasse + 1/3 | 1 tasse + 2/3 | 2 tasses |
-| **Ditalini / Petits tubes** | 1 tasse + 1/2 | 1 tasse + 7/8 | 2 tasses + 1/3 | 2 tasses + 2/3 |
-| **Macaronis / Coudes** | 2 tasses | 2 tasses + 1/2 | 3 tasses | 3 tasses + 1/2 |
-| **Coquillages (Medium)** | 2 tasses + 1/3 | 3 tasses | 3 tasses + 1/2 | 4 tasses + 1/8 |
-| **Penne / Rigatoni / Cavatappi** | 2 tasses + 1/2 | 3 tasses + 1/8 | 3 tasses + 3/4 | 4 tasses + 3/8 |
-| **Fusilli / Rotini / Farfalle** *(Volumineux)* | 2 tasses + 2/3 | 3 tasses + 1/3 | 4 tasses | 4 tasses + 2/3 |
-
-> **Astuce de chef :**
-> * **Règle de cuisson** : 100 g de pâtes sèches absorbent l'eau et donnent environ **225 g à 250 g de pâtes cuites**.
-> * **Pâtes longues (Spaghetti, Linguine)** : 100 g correspondent à un faisceau d'environ **2.5 cm (1 pouce)** de diamètre (la taille d'une pièce de 1$ CAD).
-
----
-
 ## <i class="fa-solid fa-drumstick-bite"></i> Températures de cuisson des viandes
 
-Pour une cuisson parfaite et sécuritaire, mesure la température au cœur de la pièce (partie la plus épaisse, sans toucher d'os). Retire la viande du feu à **2 à 3 °C sous la cible** : la cuisson se poursuit au repos.
+Pour une cuisson parfaite et sécuritaire, mesure la température au cœur de la pièce (partie la plus épaisse, sans toucher d'os). Retire la viande du feu à **2 à 3 °C (3 à 5 °F) sous la cible** : la cuisson se poursuit au repos.
 
 ### Bœuf, Veau & Agneau
 
 | Cuisson | Température interne | Description & Aspect |
 | :--- | :---: | :--- |
-| **Bleu** | **48 °C à 50 °C** | Cœur très rouge, chaud mais à peine saisi |
-| **Saignant** | **52 °C à 54 °C** | Cœur rouge vif, très tendre et juteux |
-| **Médium-saignant** *(À point)* | **55 °C à 57 °C** | Cœur rose chaud *(recommandé)* |
-| **Médium** | **60 °C à 63 °C** | Cœur rose pâle, viande plus ferme |
-| **Bien cuit** | **68 °C et plus** | Entièrement brun, peu de jus |
+| **Bleu** | **48 °C à 50 °C** *(120 °F à 122 °F)* | Cœur très rouge, chaud mais à peine saisi |
+| **Saignant** | **52 °C à 54 °C** *(125 °F à 130 °F)* | Cœur rouge vif, très tendre et juteux |
+| **Médium-saignant** *(À point)* | **55 °C à 57 °C** *(130 °F à 135 °F)* | Cœur rose chaud *(recommandé)* |
+| **Médium** | **60 °C à 63 °C** *(140 °F à 145 °F)* | Cœur rose pâle, viande plus ferme |
+| **Bien cuit** | **68 °C et plus** *(155 °F et plus)* | Entièrement brun, peu de jus |
 
 ### Porc
 
 | Coupe / Type | Température interne | Remarques |
 | :--- | :---: | :--- |
-| **Filet & Longe (Rosé)** | **63 °C** | Laisser reposer 3 min |
-| **Porc haché** | **71 °C** | Cuisson complète |
-| **Épaule / Effiloché (Pulled Pork)** | **93 °C à 95 °C** | Pour fondre le collagène |
+| **Filet & Longe (Rosé)** | **63 °C** *(145 °F)* | Laisser reposer 3 min |
+| **Porc haché** | **71 °C** *(160 °F)* | Cuisson complète |
+| **Épaule / Effiloché (Pulled Pork)** | **93 °C à 95 °C** *(200 °F à 203 °F)* | Pour fondre le collagène |
 
 ### Volaille (Poulet & Dindon)
 
 | Coupe / Type | Température interne | Remarques |
 | :--- | :---: | :--- |
-| **Poitrine & Suprême** | **74 °C** | Retirer à 72 °C et laisser monter au repos |
-| **Cuisses & Pilons** | **74 °C à 82 °C** | Plus tendre autour de 80 °C |
-| **Volaille hachée** | **74 °C** | Cuisson complète obligatoire |
+| **Poitrine & Suprême** | **74 °C** *(165 °F)* | Retirer à 72 °C (160 °F) et laisser monter au repos |
+| **Cuisses & Pilons** | **74 °C à 82 °C** *(165 °F à 180 °F)* | Plus tendre autour de 80 °C (175 °F) |
+| **Volaille hachée** | **74 °C** *(165 °F)* | Cuisson complète obligatoire |
 
 ### Viandes hachées, Saucisses & Poissons
 
 | Type | Température interne | Remarques |
 | :--- | :---: | :--- |
-| **Bœuf / Porc / Agneau haché** | **71 °C** | Sécurité sanitaire minimale |
-| **Saucisses fraîches** | **71 °C** | Cuire à feu moyen-doux |
-| **Saumon & Thon** | **50 °C à 52 °C** | Mi-cuit / Nacre au centre |
-| **Poissons blancs** | **60 °C** | La chair se détache à la fourchette |
+| **Bœuf / Porc / Agneau haché** | **71 °C** *(160 °F)* | Sécurité sanitaire minimale |
+| **Saucisses fraîches** | **71 °C** *(160 °F)* | Cuire à feu moyen-doux |
+| **Saumon & Thon** | **50 °C à 52 °C** *(122 °F à 125 °F)* | Mi-cuit / Nacre au centre |
+| **Poissons blancs** | **60 °C** *(140 °F)* | La chair se détache à la fourchette |
 
 ---
 
@@ -203,7 +186,7 @@ Le repos permet aux fibres de se détendre et aux jus de se redistribuer de mani
 | Pièce de viande | Temps de repos | Technique & Consignes |
 | :--- | :---: | :--- |
 | **Petites coupes** *(Steaks, poitrines, côtelettes)* | **5 minutes** | Sur une grille ou assiette chaude, recouvrir lâchement d'aluminium. |
-| **Rôtis moyens** *(Rôti de bœuf, longe, gigot)* | **10 à 15 minutes** | Couvrir d'aluminium. La température grimpera de 2 à 4 °C. |
+| **Rôtis moyens** *(Rôti de bœuf, longe, gigot)* | **10 à 15 minutes** | Couvrir d'aluminium. La température grimpera de 2 à 4 °C (3 à 7 °F). |
 | **Volaille entière & Gros rôtis** | **20 à 30 minutes** | Repos sur grille pour conserver le croustillant de la peau. |
 | **BBQ / Effiloché** *(Brisket, épaule de porc)* | **45 min à 2 h** | Envelopper dans un papier de boucherie et placer en glacière vide. |
 
