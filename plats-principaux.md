@@ -539,4 +539,42 @@ Source : [Jean-Piquant](https://jean-piquant.com/boulettes-de-chili/)
 > 4. Porter à ébullition, réduire le feu à moyen-doux, couvrir partiellement et laisser mijoter environ 15 à 20 minutes en remuant de temps en temps, jusqu'à ce que les lentilles soient très tendres et la texture crémeuse.
 > 5. Retirer du feu, incorporer le sel et le jus de citron frais, puis garnir de coriandre fraîche avant de servir avec du riz basmati ou du pain naan.
 
+---
+## Poulet au beurre à l'Instant Pot
+
+<div class="info-recette">
+  <span><i class="fa-solid fa-clock"></i> <b> Prep :</b> 15 min</span>
+  <span><i class="fa-solid fa-fire"></i> <b> Cuisson :</b> 25 min</span>
+  <span><i class="fa-solid fa-utensils"></i> <b> Portions :</b> 4</span>
+</div>
+
+> **Ingrédients :**
+> 
+>   * 45 g (3 c. à soupe) de beurre non salé
+>   * 8 gousses d'ail, hachées
+>   * 10 ml (2 c. à thé) de gingembre frais, haché ou en pâte
+>   * 250 ml (1 tasse) de purée de tomates (ou passata)
+>   * 30 ml (2 c. à soupe) de pâte de tomates
+>   * 15 ml (3 c. à thé) de garam masala
+>   * 15 ml (1 c. à soupe) de coriandre moulue
+>   * 5 ml (1 c. à thé) de cumin moulu
+>   * 5 ml (1 c. à thé) de poudre de piment Kashmiri (facultatif)
+>   * 15 ml (1 c. à soupe) de paprika fumé
+>   * 5 ml (1 c. à thé) de curcuma
+>   * 5 ml (1 c. à thé) de sel
+>   * 900 g (2 lb) de hauts de cuisse de poulet désossés et sans peau, coupés en morceaux
+>   * 250 ml (1 tasse) d'eau
+>   * 250 ml (1 tasse) de crème 35 % (crème à fouetter)
+>   * 30 ml (2 c. à soupe) de persil frais, haché
+> 
+> **Préparation :**
+> 
+> 1.  Régler l'Instant Pot à la fonction Sauté.
+> 2.  Ajouter le beurre et faire fondre. Ajouter l'ail et le gingembre, puis faire sauter environ 1 minute jusqu'à ce que ce soit odorant, sans faire brûler.
+> 3.  Ajouter la purée de tomates et la pâte de tomates, puis mélanger. Ajouter le garam masala, la coriandre, le cumin, le paprika fumé, le piment Kashmiri, le curcuma et le sel. Mélanger et cuire de 3 à 5 minutes.
+> 4.  Ajouter les morceaux de poulet et l'eau, puis bien mélanger (s'assurer que le liquide couvre bien le poulet, ajouter un peu d'eau au besoin).
+> 5.  Fermer le couvercle et régler l'Instant Pot à la fonction Volaille (Poultry) pour 5 minutes.
+> 6.  Une fois la cuisson terminée, laisser la pression descendre naturellement pendant environ 10 minutes (ou faire un relâchement rapide si pressé). Déverrouiller et retirer le couvercle avec précaution.
+> 7.  Remettre l'Instant Pot en mode Sauté (sans couvercle). Verser la crème 35 % et laisser mijoter 5 minutes en remuant de temps en temps jusqu'à ce que la sauce épaississe et réduise légèrement.
+> 8.  Éteindre l'Instant Pot, garnir de persil frais haché et servir chaud avec du riz et du pain naan.
 
